@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.ResilioSync</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://download-cdn.getsync.com/stable/osx/Resilio-Sync.dmg</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/%NAME%</string>
+		<key>NAME</key>
+		<string>Resilio Sync</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>BitTorrent Sync</string>
+				<string>Resilio Sync</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Sync files without the cloud, using peer-to-peer connections.</string>
+			<key>developer</key>
+			<string>Resilio, Inc.</string>
+			<key>display_name</key>
+			<string>Resilio Sync</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>postinstall_script</key>
+			<string>#!/bin/bash
+
+OLD_APP="/Applications/BitTorrent Sync.app"
+if [[ -d "$OLD_APP" ]]; then
+    rm -rfv "$OLD_APP"
+fi
+
+exit 0
+			</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.homebysix.munki.ResilioSync</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.homebysix.download.ResilioSync</key>
+			<dict>
+				<key>git_hash</key>
+				<string>97353b67bb28728a27138018ac2d150a23db0bfb</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Resilio/ResilioSync.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>b28707e34868703b5bf3f83679c88b7656004f43742bd9fcd7d2779952c4ae10</string>
+			</dict>
+			<key>com.github.homebysix.munki.ResilioSync</key>
+			<dict>
+				<key>git_hash</key>
+				<string>10d9c1c35528a249781cfc90e4d86680d21f8b6b</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Resilio/ResilioSync.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>c98a837c00dc263f1b6962bd994b6b3c18d10ea3eb54e2f65cb59cfa83b8f696</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.RingCentral</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://downloads.ringcentral.com/sp/RingCentralForMac</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/RingCentral</string>
+		<key>NAME</key>
+		<string>RingCentral</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>RingCentral for Desktop turns your PC into your personal business command center. Manage all your business communication from one app – take calls, play voicemails, send text and faxes – anywhere.</string>
+			<key>display_name</key>
+			<string>RingCentral</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.bradclare.munki.ringcentral</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.bradclare.download.ringcentral</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b2fd82de7d59f7cbae6ce621882249d50a0b2125</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/RingCentral/RingCentral.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>f831b78646f4cc897971d5b6b154eb3da2de25311d8782bef206b7968b4d47e8</string>
+			</dict>
+			<key>com.github.bradclare.munki.ringcentral</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e33c38f8f15677677cc2a653b9ac7cea1ff94bd1</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/RingCentral/RingCentral.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>99495152fd670e099fb21305d085129e1b4cce2dd57abbcbae0e82cd27783492</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
