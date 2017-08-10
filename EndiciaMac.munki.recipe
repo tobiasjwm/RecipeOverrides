@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.EndiciaMac</string>
+	<key>Input</key>
+	<dict>
+		<key>APP_FILENAME</key>
+		<string>Endicia</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/%NAME%</string>
+		<key>NAME</key>
+		<string>Endicia</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>https://s3.amazonaws.com/endiciaformac/EndiciaForMacSparkle.xml</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Print shipping labels or online postage right from your desk.</string>
+			<key>developer</key>
+			<string>Endicia</string>
+			<key>display_name</key>
+			<string>Endicia for Mac</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.tobiasjwm.munki.EndiciaforMac</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.tobiasjwm.download.EndiciaforMac</key>
+			<dict>
+				<key>git_hash</key>
+				<string>9acc49cec77f0990339d01c3bba2550c5697443a</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.tobiasjwm.com.github.tobiasjwm.autopkg-recipes/Endicia/EndiciaMac.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>4758652ff9226cd7a5dbe1c878688987376e714e4b58651fd51513536842a60d</string>
+			</dict>
+			<key>com.github.tobiasjwm.munki.EndiciaforMac</key>
+			<dict>
+				<key>git_hash</key>
+				<string>244961f252d8a5375a4ee3a5cc55d95bb3e4d317</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.tobiasjwm.com.github.tobiasjwm.autopkg-recipes/Endicia/EndiciaMac.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>a616c76e83339ca320bfbc308a21951bbcb9e427ca0edb43626ed1ca72a0f060</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
