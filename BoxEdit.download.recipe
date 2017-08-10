@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.download.BoxEdit</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://e3.boxcdn.net/box-installers/boxedit/mac/currentrelease/BoxEditInstaller.dmg</string>
+		<key>NAME</key>
+		<string>Box Edit</string>
+		<key>USER_AGENT</key>
+		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.28.10 (KHTML, like Gecko) Version/6.0.3 Safari/536.28.10</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.hansen-m.download.boxedit</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.hansen-m.download.boxedit</key>
+			<dict>
+				<key>git_hash</key>
+				<string>3145502e8cbda86c2106f82c7fe437c42e71f535</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Box/BoxEdit.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>0922a488108f306cfe8d6cb59efb38cf62bbb84f8246e4130352a6ebdeaa0916</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
