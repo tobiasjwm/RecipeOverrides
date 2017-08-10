@@ -11,14 +11,14 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/Smile</string>
 		<key>NAME</key>
-		<string>PDFpenPro</string>
+		<string>PDFpenPro9</string>
 		<key>SPARKLE_FEED_URL</key>
 		<string>https://updates.smilesoftware.com/com.smileonmymac.PDFpenPro.xml</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>dev</string>
 			</array>
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>
