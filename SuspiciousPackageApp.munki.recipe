@@ -7,11 +7,9 @@
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>SuspiciousPackage</string>
+		<string>SuspiciousPackageApp</string>
 		<key>PKG_URL</key>
 		<string>http://www.mothersruin.com/software/downloads/SuspiciousPackage.dmg</string>
-		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/MothersRuin</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -27,6 +25,8 @@
 			<key>name</key>
 			<string>%NAME%</string>
 		</dict>
+		<key>repo_subdirectory</key>
+		<string>apps/MothersRuin</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.poundbangbash.eholtam-recipes.munki.SuspiciousPackageApp</string>
@@ -39,11 +39,11 @@
 			<key>com.github.poundbangbash.eholtam-recipes.download.SuspiciousPackageApp</key>
 			<dict>
 				<key>git_hash</key>
-				<string>e8b78f03b2c8eacf5c62f99a93175998dee7991d</string>
+				<string>fb913446095351144565af29f94f4a504ee3cbb4</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.eholtam-recipes/SuspiciousPackageApp/SuspiciousPackageApp.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>edc58f2c67edea4d13bb0f5bdf9468c311da538cdc376383662da55ef6812ee1</string>
+				<string>9ec1ac6ad423e48fab863b34292f5b679f40e609ce146f3dd055a5371d1bd249</string>
 			</dict>
 			<key>com.github.poundbangbash.eholtam-recipes.munki.SuspiciousPackageApp</key>
 			<dict>

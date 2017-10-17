@@ -18,7 +18,11 @@
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>dev</string>
+				<string>testing</string>
+			</array>
+			<key>blocking_applications</key>
+			<array>
+				<string>PDFpenPro.app</string>
 			</array>
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>
@@ -27,11 +31,11 @@
 			<key>developer</key>
 			<string>SmileOnMyMac</string>
 			<key>display_name</key>
-			<string>PDFpenPro</string>
+			<string>PDFpenPro 9</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
