@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Muzzle</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://muzzleapp.com/binaries/muzzle.zip</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/Incident57</string>
+		<key>NAME</key>
+		<string>Muzzle</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Utility</string>
+			<key>description</key>
+			<string>A simple Mac app to silence embarrassing notifications while screensharing.</string>
+			<key>developer</key>
+			<string>Incident 57</string>
+			<key>display_name</key>
+			<string>Muzzle</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.foigus.munki.Muzzle</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.foigus.download.Muzzle</key>
+			<dict>
+				<key>git_hash</key>
+				<string>5ff1b40e9ed22e21aeca12017a9873ca64c67b32</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.foigus-recipes/Incident57/Muzzle.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>0126db9b467b6c3ddb54322014931ae15b0d2302e7a8fec2811dbdc5d4ba7280</string>
+			</dict>
+			<key>com.github.foigus.munki.Muzzle</key>
+			<dict>
+				<key>git_hash</key>
+				<string>5ff1b40e9ed22e21aeca12017a9873ca64c67b32</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.foigus-recipes/Incident57/Muzzle.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>b939464acfe4ee38645c3c409910711965cb63092c9726985e9155f45afc20d0</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

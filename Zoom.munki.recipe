@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Zoom</string>
+	<key>Input</key>
+	<dict>
+		<key>BUNDLE_ID</key>
+		<string>us.zoom.xos</string>
+		<key>DOWNLOAD_URL</key>
+		<string>https://zoom.us/client/latest/zoomusInstaller.pkg</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/Zoom</string>
+		<key>NAME</key>
+		<string>Zoom</string>
+		<key>USER_AGENT</key>
+		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.28.10 (KHTML, like Gecko) Version/6.0.3 Safari/536.28.10</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>The Zoom app provides cloud-hosted video conferencing, plus online meetings and group messaging.</string>
+			<key>developer</key>
+			<string>Zoom Video Communications, Inc.</string>
+			<key>display_name</key>
+			<string>Zoom</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.homebysix.munki.Zoom</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>Zoom7zUnarchiver</key>
+			<dict>
+				<key>git_hash</key>
+				<string>3e9e02628f309a9ba2bd0b1f8c7354dc3770539e</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Zoom/Zoom7zUnarchiver.py</string>
+				<key>sha256_hash</key>
+				<string>ad5a8d5cb4dfa48552b28fba22e3795df7acf6b52dcdf03f76da12b09b6e0a4e</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.hansen-m.download.zoom</key>
+			<dict>
+				<key>git_hash</key>
+				<string>4a9960521b5f84377af71bd3350cd11b6d314410</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Zoom/Zoom.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>84f4afa9d3e3eb09f263644e7fd9082a14f002c022f9faac2d3367127e91ba33</string>
+			</dict>
+			<key>com.github.homebysix.munki.Zoom</key>
+			<dict>
+				<key>git_hash</key>
+				<string>ca7eb639782b1014163246ac1f2b44416c88e906</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Zoom/Zoom.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>438399a88f335062109c94e0e0b1a74822278fa66fd321f12df68f95f8fb8e4b</string>
+			</dict>
+			<key>com.github.homebysix.pkg.Zoom</key>
+			<dict>
+				<key>git_hash</key>
+				<string>74a634071d54393e022b208f1ed95b5fde2816aa</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Zoom/Zoom.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>ae821eba9be18fa47e444e120d7bb8e1173ee44e3a641716676d3139451c7249</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

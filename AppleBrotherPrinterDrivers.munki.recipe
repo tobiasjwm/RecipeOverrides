@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.AppleBrotherPrinterDrivers</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_CATEGORY</key>
+		<string>Drivers</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>printers/drivers</string>
+		<key>NAME</key>
+		<string>AppleBrotherPrinterDrivers</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>%MUNKI_CATEGORY%</string>
+			<key>description</key>
+			<string>Provides the latest Brother printing and scanning software for OS X.</string>
+			<key>display_name</key>
+			<string>Brother Printer Drivers</string>
+			<key>name</key>
+			<string>%NAME%</string>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.n8felton.munki.AppleBrotherPrinterDrivers</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>com.github.n8felton.shared/AppleSupportDownloadInfoProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>228a3c268a6d52727263da64de69d8d23fa4b11c</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/SharedProcessors/AppleSupportDownloadInfoProvider.py</string>
+				<key>sha256_hash</key>
+				<string>cb97c7d29684d437fd11fc5aa9781f5185659d1c0c78d1979b1c32d7f77d90e1</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.n8felton.download.AppleBrotherPrinterDrivers</key>
+			<dict>
+				<key>git_hash</key>
+				<string>9e036600c1ac7df3e3555a78a0320e233195b295</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/ApplePrinterDrivers/AppleBrotherPrinterDrivers.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>37e374fa99165d4980e5a9a494edc6c56e4a34a13729300984b57777acbd0c4e</string>
+			</dict>
+			<key>com.github.n8felton.munki.AppleBrotherPrinterDrivers</key>
+			<dict>
+				<key>git_hash</key>
+				<string>5c4eefbfbbf233228e8c689221f5b58e8dd7d50c</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/ApplePrinterDrivers/AppleBrotherPrinterDrivers.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>8cd4e39cd7069d0c589d4666d2957ed2252f4cdb134fe80ea321517e3037ef29</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

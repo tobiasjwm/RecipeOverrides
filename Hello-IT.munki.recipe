@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Hello-IT</string>
+	<key>Input</key>
+	<dict>
+		<key>GITHUB_REPO</key>
+		<string>ygini/Hello-IT</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/%NAME%</string>
+		<key>NAME</key>
+		<string>HelloIT</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Self support apps provided by IT services to end users.</string>
+			<key>developer</key>
+			<string>Yoann GINI</string>
+			<key>display_name</key>
+			<string>Hello-IT</string>
+			<key>minimum_os_version</key>
+			<string>10.10.0</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.ygini.munki.HelloIT</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.ygini.download.HelloIT</key>
+			<dict>
+				<key>git_hash</key>
+				<string>45d6322dc596ad16b48c5b9cc30443543866887e</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.ygini-recipes/Hello-IT/Hello-IT.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>91d98db7e3fe23b59400e78ae7dd8ef6ee46461d0e2906b0756b06a68358c1ef</string>
+			</dict>
+			<key>com.github.ygini.munki.HelloIT</key>
+			<dict>
+				<key>git_hash</key>
+				<string>45d6322dc596ad16b48c5b9cc30443543866887e</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.ygini-recipes/Hello-IT/Hello-IT.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>5d983abd747161cce49d3ee268c2983ca6bbc43798d2995150371b5454c3cee2</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

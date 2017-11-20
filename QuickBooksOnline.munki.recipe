@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.QuickBooksOnline</string>
+	<key>Input</key>
+	<dict>
+		<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+		<false/>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/Intuit</string>
+		<key>NAME</key>
+		<string>QuickBooksOnline</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>https://http-download.intuit.com/http.intuit/CMO/apple_web/sample/static/qbomac/rssfeeds/Staged/QuickBooks.QBOWeb.Release.xml</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>QuickBooks</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Financial management and accounting for small businesses.</string>
+			<key>developer</key>
+			<string>Intuit</string>
+			<key>display_name</key>
+			<string>QuickBooks Online</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>preinstall_alert</key>
+			<dict>
+				<key>alert_detail</key>
+				<string>QuickBooks Online requires an Intuit QuickBooks Online subscription. Find out more at https://quickbooks.intuit.com/online/</string>
+			</dict>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.tobiasjwm.munki.QuickBooksOnline</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.tobiasjwm.download.QuickBooksOnline</key>
+			<dict>
+				<key>git_hash</key>
+				<string>a70499c44debe8447feec86c4777026ac42c296d</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.tobiasjwm.com.github.tobiasjwm.autopkg-recipes/Intuit/QuickBooksOnline.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>04892d8d3061893004bdaa5723774836f3f0a0296d70441fd09d69f53f4f1e42</string>
+			</dict>
+			<key>com.github.tobiasjwm.munki.QuickBooksOnline</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.tobiasjwm.com.github.tobiasjwm.autopkg-recipes/Intuit/QuickBooksOnline.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>3d70b05a8da62fd8d7733ebd259ded8d65e72bea154094a604327ff97806e759</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
