@@ -55,7 +55,7 @@
 				<key>git_hash</key>
 				<string>9eab03bd4dbb882931b0f2ec100665ed6f199e62</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.apettinen-recipes/MSTeams/MSTeamsURLProvider.py</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.apettinen-recipes/MSTeams/MSTeamsURLProvider.py</string>
 				<key>sha256_hash</key>
 				<string>5d406f9cc396a11432c880566d3a507ca972e23c7d5887f9331c78032d55430b</string>
 			</dict>
@@ -67,7 +67,7 @@
 				<key>git_hash</key>
 				<string>c17feabe71c21979bb294acd72313ec11db9c718</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.apettinen-recipes/MSTeams/MSTeams.download.recipe</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.apettinen-recipes/MSTeams/MSTeams.download.recipe</string>
 				<key>sha256_hash</key>
 				<string>87b43b4ce43b0fa088b08a42d11d85fca59c50a26aa504bd673f0d5ebccb7bf6</string>
 			</dict>
@@ -76,7 +76,7 @@
 				<key>git_hash</key>
 				<string>c17feabe71c21979bb294acd72313ec11db9c718</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.apettinen-recipes/MSTeams/MSTeams.munki.recipe</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.apettinen-recipes/MSTeams/MSTeams.munki.recipe</string>
 				<key>sha256_hash</key>
 				<string>4796f70df529b40b1dd7c33d1cbec32a36bc8a9fce24c0ff09e190feb83f6e59</string>
 			</dict>

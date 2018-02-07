@@ -58,7 +58,7 @@ exit 0
 				<key>git_hash</key>
 				<string>97353b67bb28728a27138018ac2d150a23db0bfb</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Resilio/ResilioSync.download.recipe</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Resilio/ResilioSync.download.recipe</string>
 				<key>sha256_hash</key>
 				<string>b28707e34868703b5bf3f83679c88b7656004f43742bd9fcd7d2779952c4ae10</string>
 			</dict>
@@ -67,7 +67,7 @@ exit 0
 				<key>git_hash</key>
 				<string>10d9c1c35528a249781cfc90e4d86680d21f8b6b</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Resilio/ResilioSync.munki.recipe</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Resilio/ResilioSync.munki.recipe</string>
 				<key>sha256_hash</key>
 				<string>c98a837c00dc263f1b6962bd994b6b3c18d10ea3eb54e2f65cb59cfa83b8f696</string>
 			</dict>

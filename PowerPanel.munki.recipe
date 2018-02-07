@@ -43,7 +43,7 @@
 				<key>git_hash</key>
 				<string>73286b34f5b863ade3e3ae8092d036ab03e9bb33</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.eholtam-recipes/PowerPanel/PowerPanel.download.recipe</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.eholtam-recipes/PowerPanel/PowerPanel.download.recipe</string>
 				<key>sha256_hash</key>
 				<string>d2c308df6e4a15964ba9336717288a6eb9c63ac62d4f7dc5e944d10e85dfbffa</string>
 			</dict>
@@ -52,7 +52,7 @@
 				<key>git_hash</key>
 				<string>da0c4ab00aa324c1b43fc94af9eb6f05dd946803</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.eholtam-recipes/PowerPanel/PowerPanel.munki.recipe</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.eholtam-recipes/PowerPanel/PowerPanel.munki.recipe</string>
 				<key>sha256_hash</key>
 				<string>433d7a1da0dcad7029cf04a50d2504010bc6a395ee7c6892c46d0888c831b233</string>
 			</dict>

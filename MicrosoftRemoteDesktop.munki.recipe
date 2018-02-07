@@ -49,7 +49,7 @@
 				<key>git_hash</key>
 				<string>5a9059b32a72029d62a85330c333fa5939e74146</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.jessepeterson-recipes/AppStorePkg/AppStorePkg.munki.recipe</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.jessepeterson-recipes/AppStorePkg/AppStorePkg.munki.recipe</string>
 				<key>sha256_hash</key>
 				<string>d1fd28c726711d6d06f1a77901430fe79e94cbc30568059cdae8a1fd36967ee5</string>
 			</dict>
@@ -58,7 +58,7 @@
 				<key>git_hash</key>
 				<string>c1e3e7303b4e82a573be481ce5383a1a2c62afec</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.jessepeterson-recipes/AppStorePkg/MicrosoftRemoteDesktop.munki.recipe</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.jessepeterson-recipes/AppStorePkg/MicrosoftRemoteDesktop.munki.recipe</string>
 				<key>sha256_hash</key>
 				<string>f7dce7877ca7c156f78a6ea7bbc2356e3986d41903dc616b4e47b2eb7a8e75b9</string>
 			</dict>

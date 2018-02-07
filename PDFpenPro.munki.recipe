@@ -51,7 +51,7 @@
 				<key>git_hash</key>
 				<string>cc490f0d441ad8da46b57ac0e1d6a20cd2fba8c2</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.jessepeterson-recipes/SmileSoftware/PDFpenPro.download.recipe</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.jessepeterson-recipes/SmileSoftware/PDFpenPro.download.recipe</string>
 				<key>sha256_hash</key>
 				<string>aa08c284bc044f17faef24f4b6e90f2d66c5c2a31f08ea769ee42cb0aead6d60</string>
 			</dict>
@@ -60,7 +60,7 @@
 				<key>git_hash</key>
 				<string>e786ff4b622b7f7582b51734375672b58828cd7f</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.jessepeterson-recipes/SmileSoftware/PDFpenPro.munki.recipe</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.jessepeterson-recipes/SmileSoftware/PDFpenPro.munki.recipe</string>
 				<key>sha256_hash</key>
 				<string>66764836aef753dc5d9d12090d3a1890bfc7c0cea8550ef6a93ea1f851ef9cda</string>
 			</dict>

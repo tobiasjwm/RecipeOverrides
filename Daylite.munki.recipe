@@ -56,7 +56,7 @@
 				<key>git_hash</key>
 				<string>6d1b4706ff50d696e5a082359d024d3d2d8d015b</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/Daylite/Daylite.download.recipe</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/Daylite/Daylite.download.recipe</string>
 				<key>sha256_hash</key>
 				<string>0167acfe2dbd3e1c299aae3b9aef4c71821f186e6eecf132f17456f4ecdc9251</string>
 			</dict>
@@ -65,7 +65,7 @@
 				<key>git_hash</key>
 				<string>76c75740995391ba59e0d9f068d0c2b7cada2d85</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/Daylite/Daylite.munki.recipe</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/Daylite/Daylite.munki.recipe</string>
 				<key>sha256_hash</key>
 				<string>5a65fc2efb99ab0cd0b41ff723732ca7d7c62cf82dc65f6b14987b01d316d0ba</string>
 			</dict>

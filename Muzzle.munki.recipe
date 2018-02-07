@@ -45,7 +45,7 @@
 				<key>git_hash</key>
 				<string>5ff1b40e9ed22e21aeca12017a9873ca64c67b32</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.foigus-recipes/Incident57/Muzzle.download.recipe</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.foigus-recipes/Incident57/Muzzle.download.recipe</string>
 				<key>sha256_hash</key>
 				<string>0126db9b467b6c3ddb54322014931ae15b0d2302e7a8fec2811dbdc5d4ba7280</string>
 			</dict>
@@ -54,7 +54,7 @@
 				<key>git_hash</key>
 				<string>5ff1b40e9ed22e21aeca12017a9873ca64c67b32</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.foigus-recipes/Incident57/Muzzle.munki.recipe</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.foigus-recipes/Incident57/Muzzle.munki.recipe</string>
 				<key>sha256_hash</key>
 				<string>b939464acfe4ee38645c3c409910711965cb63092c9726985e9155f45afc20d0</string>
 			</dict>

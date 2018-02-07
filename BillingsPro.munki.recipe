@@ -55,7 +55,7 @@ Use Billings Pro free on your Mac(s) and iOS devices to send 1 invoice, 1 estima
 				<key>git_hash</key>
 				<string>006fd4d674ea2506876c26451cdf1867a45c5be3</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/Billings Pro/BillingsPro.download.recipe</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/Billings Pro/BillingsPro.download.recipe</string>
 				<key>sha256_hash</key>
 				<string>495b22d42e808e2ed90ba7826b5f7ca6b48d4c0382b60c2c8677903a9627b71b</string>
 			</dict>
@@ -64,7 +64,7 @@ Use Billings Pro free on your Mac(s) and iOS devices to send 1 invoice, 1 estima
 				<key>git_hash</key>
 				<string>239d234a43f083c98ad5de063b3e22fdcb4ef670</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/Billings Pro/BillingsPro.munki.recipe</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/Billings Pro/BillingsPro.munki.recipe</string>
 				<key>sha256_hash</key>
 				<string>456e70ce00a9efa1eed101a96e8b76079f8fd47a89a099677740ccbb549d1a71</string>
 			</dict>

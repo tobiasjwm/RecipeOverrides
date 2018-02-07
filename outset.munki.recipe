@@ -43,7 +43,7 @@
 				<key>git_hash</key>
 				<string>5a3aafd259be0612ea56ee86607e19e0ed00dfa6</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.grahamgilbert-recipes/outset/outset.download.recipe</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.grahamgilbert-recipes/outset/outset.download.recipe</string>
 				<key>sha256_hash</key>
 				<string>0da8b0237e86eedba40b47516809864d4ddf9789797c4315a8b6254825cbbf2d</string>
 			</dict>
@@ -52,7 +52,7 @@
 				<key>git_hash</key>
 				<string>371acb53f782813ac6b5ccebe8df454ec73c1e1e</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.grahamgilbert-recipes/outset/outset.munki.recipe</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.grahamgilbert-recipes/outset/outset.munki.recipe</string>
 				<key>sha256_hash</key>
 				<string>1aff5d667bfa89afa585f04db0c87b03415d32604cd24c30b6d4b1591c181573</string>
 			</dict>

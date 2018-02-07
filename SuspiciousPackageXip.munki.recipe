@@ -45,7 +45,7 @@
 				<key>git_hash</key>
 				<string>676160c018b9d5bc3501133c01aa60b1e56b2700</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.gregneagle-recipes/SuspiciousPackageXip/SuspiciousPackageXip.download.recipe</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.gregneagle-recipes/SuspiciousPackageXip/SuspiciousPackageXip.download.recipe</string>
 				<key>sha256_hash</key>
 				<string>46a81d78b48c9e7eec13986c11f816d078d9a76663b0853eb5180f003b45b278</string>
 			</dict>
@@ -54,7 +54,7 @@
 				<key>git_hash</key>
 				<string>676160c018b9d5bc3501133c01aa60b1e56b2700</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.gregneagle-recipes/SuspiciousPackageXip/SuspiciousPackageXip.munki.recipe</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.gregneagle-recipes/SuspiciousPackageXip/SuspiciousPackageXip.munki.recipe</string>
 				<key>sha256_hash</key>
 				<string>497891c919861017c3848caae42b76567a23d6b5342b0a05379e1de93301815a</string>
 			</dict>
@@ -63,7 +63,7 @@
 				<key>git_hash</key>
 				<string>676160c018b9d5bc3501133c01aa60b1e56b2700</string>
 				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.gregneagle-recipes/SuspiciousPackageXip/SuspiciousPackageXip.pkg.recipe</string>
+				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.gregneagle-recipes/SuspiciousPackageXip/SuspiciousPackageXip.pkg.recipe</string>
 				<key>sha256_hash</key>
 				<string>a31305b79a2db347d9b3739f8fe13286943337d4cb45ab29e21598c837d3521d</string>
 			</dict>
