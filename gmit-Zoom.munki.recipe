@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.Zoom</string>
+	<string>local.munki.gmit-Zoom</string>
 	<key>Input</key>
 	<dict>
 		<key>BUNDLE_ID</key>
