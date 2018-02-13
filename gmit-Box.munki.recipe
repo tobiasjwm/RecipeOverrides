@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.Box</string>
+	<string>local.munki.gmit-Box</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -29,9 +29,16 @@
 			<key>display_name</key>
 			<string>Box Drive</string>
 			<key>minimum_os_version</key>
-			<string>10.11.0</string>
+			<string>10.12.0</string>
 			<key>name</key>
 			<string>%NAME%</string>
+			<key>preinstall_alert</key>
+			<dict>
+				<key>alert_detail</key>
+				<string>Box Drive cannot be installed on a device that is already running Box Sync. You will need to fully remove Box Sync before you can install Box Drive. Please contact GlobalMac IT for assistance.</string>
+				<key>alert_title</key>
+				<string>Notice to Box Sync Users</string>
+			</dict>
 			<key>unattended_install</key>
 			<true/>
 			<key>unattended_uninstall</key>
