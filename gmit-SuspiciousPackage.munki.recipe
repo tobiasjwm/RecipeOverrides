@@ -3,27 +3,37 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.SuspiciousPackageApp</string>
+	<string>local.munki.gmit-SuspiciousPackage</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>SuspiciousPackageApp</string>
+		<string>SuspiciousPackage</string>
 		<key>PKG_URL</key>
 		<string>http://www.mothersruin.com/software/downloads/SuspiciousPackage.dmg</string>
 		<key>pkginfo</key>
 		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>Suspicious Package.app</string>
+			</array>
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Plug-ins</string>
 			<key>description</key>
-			<string>Suspicious Package: An Application for Inspecting OS X Installer Packages</string>
+			<string>An Application for Inspecting OS X Installer Packages. Suspicious Package also includes a QuickLook plug-in to view package contents from the Finder.</string>
 			<key>display_name</key>
-			<string>Suspicious Package App</string>
+			<string>Suspicious Package</string>
 			<key>minimum_os_version</key>
-			<string>10.9</string>
+			<string>10.10</string>
 			<key>name</key>
 			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>unattended_uninstall</key>
+			<false/>
 		</dict>
 		<key>repo_subdirectory</key>
 		<string>apps/MothersRuin</string>

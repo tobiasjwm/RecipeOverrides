@@ -64,11 +64,11 @@
 			<key>com.github.homebysix.munki.Zoom</key>
 			<dict>
 				<key>git_hash</key>
-				<string>ca7eb639782b1014163246ac1f2b44416c88e906</string>
+				<string>11a7c6ff42fbf7f4bed154e78da186eb0951092d</string>
 				<key>path</key>
 				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Zoom/Zoom.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>438399a88f335062109c94e0e0b1a74822278fa66fd321f12df68f95f8fb8e4b</string>
+				<string>cd7f335598c66d7d540fa4235ee5e336d127188dbbe8abacf033e6ea35f92783</string>
 			</dict>
 			<key>com.github.homebysix.pkg.Zoom</key>
 			<dict>
