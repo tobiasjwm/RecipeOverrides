@@ -21,7 +21,7 @@
 		<key>MUNKI_NAME</key>
 		<string>%NAME%</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Microsoft/</string>
+		<string>apps/Microsoft</string>
 		<key>NAME</key>
 		<string>MSTeams</string>
 		<key>pkginfo</key>
@@ -65,11 +65,11 @@
 			<key>com.github.apettinen.download.MSTeams</key>
 			<dict>
 				<key>git_hash</key>
-				<string>c17feabe71c21979bb294acd72313ec11db9c718</string>
+				<string>a541043e9bec95f9ca47315b7d6d8004beadd1fa</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.apettinen-recipes/MSTeams/MSTeams.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>87b43b4ce43b0fa088b08a42d11d85fca59c50a26aa504bd673f0d5ebccb7bf6</string>
+				<string>a032137689c94c87ccd93044fc8c79040c08bef6328c1409dbefa648f8fa9aa3</string>
 			</dict>
 			<key>com.github.apettinen.munki.MSTeams</key>
 			<dict>
