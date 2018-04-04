@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.gmit-OverSight</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_PAGE_URL</key>
+		<string>https://objective-see.com/products/oversight.html</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/Objective-See</string>
+		<key>NAME</key>
+		<string>OverSight</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>%NAME%.app</string>
+				<string>%NAME%</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Security</string>
+			<key>description</key>
+			<string>Mac malware often spies on users by recording audio and video sessions...sometimes in an undetected manner.
+OverSight monitors a mac's mic and webcam, alerting the user when the internal mic is activated, or whenever a process accesses the webcam
+
+https://objective-see.com/products/oversight.html
+
+Installation script is based on command-line installation instructions at the above URL.
+			</string>
+			<key>developer</key>
+			<string>Objective-See</string>
+			<key>display_name</key>
+			<string>%NAME%</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>postinstall_script</key>
+			<string>#!/bin/bash
+
+PATH=/bin:/sbin:/usr/bin:/usr/sbin
+
+OSI="/Applications/OverSight_Installer.app"
+
+#
+# Since Munki will handle the installation of the Oversight application 
+# via command line (per developer instructions on product web page),
+# it would seem to be a good idea to hide the OverSight_Installer.app
+# so any client machines which have a local administrator do not use
+# (or delete) it manually while it is still a managed or optional
+# install.
+#
+
+chflags hidden ${OSI}
+
+#
+# Perform the installation per developer instructions.
+#
+
+${OSI}/Contents/MacOS/OverSight_Installer -install
+
+			</string>
+			<key>preuninstall_script</key>
+			<string>#!/bin/bash
+
+PATH=/bin:/sbin:/usr/bin:/usr/sbin
+
+OSI="/Applications/OverSight_Installer.app"
+
+#
+# Go ahead and unhide the application
+#
+
+chflags hidden ${OSI}
+
+#
+# Perform the uninstallation per developer instructions.
+#
+
+${OSI}/Contents/MacOS/OverSight_Installer -uninstall
+
+			</string>
+		</dict>
+		<key>repo_subdirectory</key>
+		<string>apps/Objective-See</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jps3.munki.OverSight</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jps3.download.OverSight</key>
+			<dict>
+				<key>git_hash</key>
+				<string>358904c0dd387b919ae697dd80d908530a7eb9c0</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jps3-recipes/Objective-See/OverSight.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>969c80137912a83b4c160b71c417af1a53fe22d9a621febac3dea56c088c9eea</string>
+			</dict>
+			<key>com.github.jps3.munki.OverSight</key>
+			<dict>
+				<key>git_hash</key>
+				<string>deb0da44bdde7b089bcdfefa12e57e06e7901ee5</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jps3-recipes/Objective-See/OverSight.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>8340a9bbc80f29e585c9acdf9018ccc2bb5c7436036bf512a426a893616b2308</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.gmit-KextViewr</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_PAGE_URL</key>
+		<string>https://objective-see.com/products/kextviewr.html</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/Objective-See</string>
+		<key>NAME</key>
+		<string>KextViewr</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>%NAME%.app</string>
+				<string>%NAME%</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Security</string>
+			<key>description</key>
+			<string>View all modules on that are loaded in the OS kernel.
+
+https://objective-see.com/products/kextviewr.html
+
+Modules that are loaded into the kernel are called kernel extension, or 'kexts.' They run at the OS's highest privilege level; ring-0. KextViewr displays all loaded kexts, along with their signing status, full path, VirusTotal detection ratios, and more! 
+            </string>
+			<key>developer</key>
+			<string>Objective-See</string>
+			<key>display_name</key>
+			<string>%NAME%</string>
+			<key>name</key>
+			<string>%NAME%</string>
+		</dict>
+		<key>repo_subdirectory</key>
+		<string>apps/Objective-See</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jps3.munki.KextViewr</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jps3.download.KextViewr</key>
+			<dict>
+				<key>git_hash</key>
+				<string>358904c0dd387b919ae697dd80d908530a7eb9c0</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jps3-recipes/Objective-See/KextViewr.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>4113c7c96701cc2274e03b6974d3d3cd08492aedecd2268fe8bb823fc8393767</string>
+			</dict>
+			<key>com.github.jps3.munki.KextViewr</key>
+			<dict>
+				<key>git_hash</key>
+				<string>deb0da44bdde7b089bcdfefa12e57e06e7901ee5</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jps3-recipes/Objective-See/KextViewr.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>e844614722cf5dcf0e6be33adb9dddd70e1a8946b05f7439f359b24eefba89f6</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

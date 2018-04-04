@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.gmit-KnockKnock</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/Objective-See</string>
+		<key>NAME</key>
+		<string>KnockKnock</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>display_name</key>
+			<string>%NAME%</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>description</key>
+			<string>"Who's there?" See what's persistently installed on your Mac.
+
+https://objective-see.com/products/knockknock.html
+
+Malware installs itself persistently, to ensure it is automatically executed each time a computer is restarted. KnockKnock uncovers persistently installed software in order to generically reveal such malware.</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.andrewvalentine.munki.KnockKnock</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.andrewvalentine.download.KnockKnock</key>
+			<dict>
+				<key>git_hash</key>
+				<string>ec5e37ad0985d94b875ee45faccf2856eb34be44</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.andrewvalentine-recipes/KnockKnock/KnockKnock.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>b0621d71ad4509f9aa5223447d49b2767b924aa60a4242344e77710f143d2b6b</string>
+			</dict>
+			<key>com.github.andrewvalentine.munki.KnockKnock</key>
+			<dict>
+				<key>git_hash</key>
+				<string>ec5e37ad0985d94b875ee45faccf2856eb34be44</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.andrewvalentine-recipes/KnockKnock/KnockKnock.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>c372836dcd37131afda45fc02b399c2863be7000faed6740e12b41fe25cf853b</string>
+			</dict>
+			<key>com.github.andrewvalentine.pkg.KnockKnock</key>
+			<dict>
+				<key>git_hash</key>
+				<string>ec5e37ad0985d94b875ee45faccf2856eb34be44</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.andrewvalentine-recipes/KnockKnock/KnockKnock.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>caf501b8c190a49adfdc5def96909ea8da1685d28fe53fc18ab8d781d61fda36</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
