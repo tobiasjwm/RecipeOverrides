@@ -12,6 +12,8 @@
 		<string>apps/Objective-See</string>
 		<key>NAME</key>
 		<string>KextViewr</string>
+		<key>MUNKI_CATEGORY</key>
+		<string>Security</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>blocking_applications</key>
@@ -24,7 +26,7 @@
 				<string>testing</string>
 			</array>
 			<key>category</key>
-			<string>Security</string>
+			<string>%MUNKI_CATEGORY%</string>
 			<key>description</key>
 			<string>View all modules on that are loaded in the OS kernel.
 
