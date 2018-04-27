@@ -7,9 +7,9 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/box</string>
+		<string>apps/Box</string>
 		<key>NAME</key>
-		<string>Box Notes</string>
+		<string>BoxNotes</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -23,7 +23,9 @@
 			<key>developer</key>
 			<string>Box</string>
 			<key>display_name</key>
-			<string>%NAME%</string>
+			<string>Box Notes</string>
+			<key>icon_name</key>
+			<string>boxnotes.png</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
