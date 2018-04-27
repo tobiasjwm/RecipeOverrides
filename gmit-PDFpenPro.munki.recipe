@@ -27,13 +27,22 @@
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>
 			<key>description</key>
-			<string>The all-purpose Mac PDF editor! Add signatures, text, and images. Make changes and correct typos. OCR scanned docs. Fill out forms. New in version 6: Microsoft® Word export!</string>
+			<string>Powerful PDF Editing On Your Mac.
+
+Add signatures, text, and images. Make changes and correct typos. OCR scanned docs. Fill out and create forms. Export to Microsoft® Word, Excel, PowerPoint.</string>
 			<key>developer</key>
-			<string>SmileOnMyMac</string>
+			<string>SmileSoftware</string>
 			<key>display_name</key>
 			<string>PDFpenPro 10</string>
 			<key>name</key>
 			<string>%NAME%</string>
+			<key>preinstall_alert</key>
+			<dict>
+				<key>alert_detail</key>
+				<string>PDFpenPro requires a commercial software license. You can use PDFpenPro for free but the demo will stamp the Smile logo on all saved and printed documents until you enter a license.</string>
+				<key>alert_title</key>
+				<string>Commercial Software</string>
+			</dict>
 			<key>unattended_install</key>
 			<true/>
 		</dict>
