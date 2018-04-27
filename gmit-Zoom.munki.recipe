@@ -14,8 +14,6 @@
 		<string>apps/Zoom</string>
 		<key>NAME</key>
 		<string>Zoom</string>
-		<key>MUNKI_CATEGORY</key>
-		<string>Communication</string>
 		<key>USER_AGENT</key>
 		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.28.10 (KHTML, like Gecko) Version/6.0.3 Safari/536.28.10</string>
 		<key>pkginfo</key>
@@ -30,10 +28,14 @@
 			<string>Zoom Video Communications, Inc.</string>
 			<key>display_name</key>
 			<string>Zoom</string>
+			<key>icon_name</key>
+			<string>zoom.png</string>
+			<key>minimum_os_version</key>
+			<string>10.10.0</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>category</key>
-			<string>MUNKI_CATEGORY</string>
+			<string>Communication</string>
 			<key>unattended_install</key>
 			<true/>
 		</dict>
