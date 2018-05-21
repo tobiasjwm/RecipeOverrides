@@ -8,8 +8,6 @@
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/Box</string>
-		<key>NAME</key>
-		<string>BoxNotes</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -27,7 +25,7 @@
 			<key>icon_name</key>
 			<string>boxnotes.png</string>
 			<key>name</key>
-			<string>%NAME%</string>
+			<string>BoxNotes</string>
 			<key>unattended_install</key>
 			<true/>
 			<key>unattended_uninstall</key>
