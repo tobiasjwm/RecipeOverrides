@@ -56,7 +56,7 @@
 				<key>git_hash</key>
 				<string>a70499c44debe8447feec86c4777026ac42c296d</string>
 				<key>path</key>
-				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.tobiasjwm.com.github.tobiasjwm.autopkg-recipes/Intuit/QuickBooksOnline.download.recipe</string>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.tobiasjwm.com.github.tobiasjwm.autopkg-recipes/Intuit/QuickBooksOnline.download.recipe</string>
 				<key>sha256_hash</key>
 				<string>04892d8d3061893004bdaa5723774836f3f0a0296d70441fd09d69f53f4f1e42</string>
 			</dict>
@@ -65,7 +65,7 @@
 				<key>git_hash</key>
 				<string>a70499c44debe8447feec86c4777026ac42c296d</string>
 				<key>path</key>
-				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.tobiasjwm.com.github.tobiasjwm.autopkg-recipes/Intuit/QuickBooksOnline.munki.recipe</string>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.tobiasjwm.com.github.tobiasjwm.autopkg-recipes/Intuit/QuickBooksOnline.munki.recipe</string>
 				<key>sha256_hash</key>
 				<string>96b50a02a8ef84f1cfdaa1b09e7ebfb4f163edd8380d118e103f76978204d5b9</string>
 			</dict>
