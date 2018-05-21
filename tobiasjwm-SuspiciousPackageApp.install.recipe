@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.install.tobiasjwm-SuspiciousPackageApp</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>SuspiciousPackageApp</string>
+		<key>PKG_URL</key>
+		<string>http://www.mothersruin.com/software/downloads/SuspiciousPackage.dmg</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.andrewvalentine.install.SuspiciousPackageApp</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.andrewvalentine.install.SuspiciousPackageApp</key>
+			<dict>
+				<key>git_hash</key>
+				<string>bb4dd2b4aa62d71d58b8429f6e23f99dc519bf12</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.andrewvalentine-recipes/SuspiciousPackageApp/SuspiciousPackageApp.install.recipe</string>
+				<key>sha256_hash</key>
+				<string>ae28422fe472e8ec6f316bd5bcaab238fabad53ca27cea052508d62193dc3cde</string>
+			</dict>
+			<key>com.github.poundbangbash.eholtam-recipes.download.SuspiciousPackageApp</key>
+			<dict>
+				<key>git_hash</key>
+				<string>fb913446095351144565af29f94f4a504ee3cbb4</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.eholtam-recipes/SuspiciousPackageApp/SuspiciousPackageApp.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>9ec1ac6ad423e48fab863b34292f5b679f40e609ce146f3dd055a5371d1bd249</string>
+			</dict>
+			<key>com.github.poundbangbash.eholtam-recipes.pkg.SuspiciousPackageApp</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b604781199e4e19c30ad6ad4c7bca3835c05e5fe</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.eholtam-recipes/SuspiciousPackageApp/SuspiciousPackageApp.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>b6d9d786fa1e6b4801a9f1a7a1d2bc7351f87bf7a6c7f9defa00de8306fb6629</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
