@@ -65,11 +65,11 @@
 			<key>com.github.apettinen.download.MSTeams</key>
 			<dict>
 				<key>git_hash</key>
-				<string>a541043e9bec95f9ca47315b7d6d8004beadd1fa</string>
+				<string>ceb1b016961751d2a6b3d3c9956a20b16f057c54</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.apettinen-recipes/MSTeams/MSTeams.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>a032137689c94c87ccd93044fc8c79040c08bef6328c1409dbefa648f8fa9aa3</string>
+				<string>94fa70c17cae257e253385b7ab9769e758b41cf02dd9d46dc41a995445ab90e6</string>
 			</dict>
 			<key>com.github.apettinen.munki.MSTeams</key>
 			<dict>
