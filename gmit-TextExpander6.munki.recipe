@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.gmit-TextExpander6</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://textexpander.com/cgi-bin/redirect.pl?cmd=download&amp;platform=osx</string>
+		<key>MUNKI_CATEGORY</key>
+		<string>Utilities</string>
+		<key>MUNKI_DEVELOPER</key>
+		<string>SmileSoftware</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/Smile</string>
+		<key>NAME</key>
+		<string>TextExpander6</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>%MUNKI_CATEGORY%</string>
+			<key>description</key>
+			<string>Imagine never typing the same email address, chunk of code, brand message, directions or data more than once. Store them in a snippet—a keyboard shortcut you create. Use them for yourself, share them with your team, update across all your devices.</string>
+			<key>developer</key>
+			<string>%MUNKI_DEVELOPER%</string>
+			<key>display_name</key>
+			<string>TextExpander 6</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>io.github.hjuutilainen.munki.TextExpander6</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>io.github.hjuutilainen.download.TextExpander6</key>
+			<dict>
+				<key>git_hash</key>
+				<string>89bba55431c07e37bb498cc476ba2366dcf52469</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/SmileOnMyMac/TextExpander6.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>2e0fdc07e516a79bc68e2b78fb7473adca6b4487c88494bb4b6e97ae3085cabf</string>
+			</dict>
+			<key>io.github.hjuutilainen.munki.TextExpander6</key>
+			<dict>
+				<key>git_hash</key>
+				<string>74a0b0b8177008b8468d06f51c0abd630c384572</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/SmileOnMyMac/TextExpander6.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>8197cc2f9e29de25d6f27a12776d61a5ff03ac2b46f97cd749fb6ee728744f65</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
