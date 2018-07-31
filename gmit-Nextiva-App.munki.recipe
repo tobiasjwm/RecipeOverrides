@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.gmit-Nextiva-App</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/Nextiva</string>
+		<key>NAME</key>
+		<string>NextivaApp</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>The Nextiva App is a great resource for business users to manage their unified communications solution. It has never been easier to use voice, video, instant messaging, and Team Presence services from a single device.</string>
+			<key>developer</key>
+			<string>BroadSoft</string>
+			<key>display_name</key>
+			<string>Nextiva App</string>
+			<key>minimum_os_version</key>
+			<string>10.10.0</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.tobiasjwm.munki.NextivaApp</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.tobiasjwm.download.NextivaApp</key>
+			<dict>
+				<key>git_hash</key>
+				<string>4bf1c6c84bcd3f62a38339ce4be930664e53b839</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.tobiasjwm.com.github.tobiasjwm.autopkg-recipes/BroadSoft/Nextiva-App.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>d171c951bb389b3b1cc2ee1d775a1f7a87dc97e94ba09ebc614941c34636accb</string>
+			</dict>
+			<key>com.github.tobiasjwm.munki.NextivaApp</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e3809323a09b13d16214e95a034c9f0ae5a37a74</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.tobiasjwm.com.github.tobiasjwm.autopkg-recipes/BroadSoft/Nextiva-App.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>589135523d1bf7229a6e891eccffe2f021f24b8dfe8f3375192ab50207410460</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
