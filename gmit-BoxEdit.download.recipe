@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.download.BoxEdit</string>
+	<string>local.download.gmit-BoxEdit</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
@@ -26,7 +26,7 @@
 				<key>git_hash</key>
 				<string>3145502e8cbda86c2106f82c7fe437c42e71f535</string>
 				<key>path</key>
-				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Box/BoxEdit.download.recipe</string>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Box/BoxEdit.download.recipe</string>
 				<key>sha256_hash</key>
 				<string>0922a488108f306cfe8d6cb59efb38cf62bbb84f8246e4130352a6ebdeaa0916</string>
 			</dict>
