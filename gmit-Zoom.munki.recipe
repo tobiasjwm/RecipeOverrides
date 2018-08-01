@@ -22,6 +22,8 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Communication</string>
 			<key>description</key>
 			<string>The Zoom app provides cloud-hosted video conferencing, plus online meetings and group messaging.</string>
 			<key>developer</key>
@@ -34,8 +36,6 @@
 			<string>10.10.0</string>
 			<key>name</key>
 			<string>%NAME%</string>
-			<key>category</key>
-			<string>Communication</string>
 			<key>unattended_install</key>
 			<true/>
 		</dict>
@@ -61,11 +61,11 @@
 			<key>com.github.hansen-m.download.zoomus</key>
 			<dict>
 				<key>git_hash</key>
-				<string>d2886cfa048e6504ef2ee139db2eff64e28218be</string>
+				<string>5995bd3da965a508ab57beb727186aac499f4123</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Zoom/Zoom.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>e06404753b83d6a0bf4a6fb7d939a24c2e0d754532a2e4959518bf637b5a5057</string>
+				<string>5fc383436e7816f0d3ba982497463992bb384be30759f65f49c763666fc7f3c9</string>
 			</dict>
 			<key>com.github.homebysix.munki.Zoom</key>
 			<dict>
