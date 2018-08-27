@@ -38,6 +38,8 @@
 			<string>Microsoft</string>
 			<key>display_name</key>
 			<string>Microsoft Remote Desktop</string>
+			<key>minimum_os_version</key>
+			<string>10.11.0</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>preinstall_script</key>
@@ -50,7 +52,9 @@ if [[ -e "/Applications/Microsoft Remote Desktop.app" ]] ; then
 	/bin/echo "An older version of MRD exists. Removing."
 	/bin/rm -R "/Applications/Microsoft Remote Desktop.app"
 	/usr/sbin/pkgutil --forget com.microsoft.rdc.mac
-fi</string>
+fi
+
+exit 0</string>
 			<key>unattended_install</key>
 			<true/>
 			<key>unattended_uninstall</key>
