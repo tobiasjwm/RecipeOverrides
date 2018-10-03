@@ -74,11 +74,11 @@
 			<key>com.github.apettinen.munki.MSTeams</key>
 			<dict>
 				<key>git_hash</key>
-				<string>c17feabe71c21979bb294acd72313ec11db9c718</string>
+				<string>bd0479e3a226bc538b75db9151b945bed01b1916</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.apettinen-recipes/MSTeams/MSTeams.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>4796f70df529b40b1dd7c33d1cbec32a36bc8a9fce24c0ff09e190feb83f6e59</string>
+				<string>a16cec634e9d7ad6402e8af3ae88dafa07068441baa7d6883fdfcf4ddf51b089</string>
 			</dict>
 		</dict>
 	</dict>
