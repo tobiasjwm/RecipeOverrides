@@ -16,6 +16,8 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Communication</string>
 			<key>description</key>
 			<string>The Nextiva App is a great resource for business users to manage their unified communications solution. It has never been easier to use voice, video, instant messaging, and Team Presence services from a single device.</string>
 			<key>developer</key>
