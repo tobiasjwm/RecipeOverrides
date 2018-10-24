@@ -45,7 +45,7 @@
 				<key>git_hash</key>
 				<string>9acc49cec77f0990339d01c3bba2550c5697443a</string>
 				<key>path</key>
-				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.tobiasjwm.com.github.tobiasjwm.autopkg-recipes/Endicia/EndiciaMac.download.recipe</string>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.tobiasjwm.tobiasjwm-recipes/Endicia/EndiciaMac.download.recipe</string>
 				<key>sha256_hash</key>
 				<string>4758652ff9226cd7a5dbe1c878688987376e714e4b58651fd51513536842a60d</string>
 			</dict>
@@ -54,7 +54,7 @@
 				<key>git_hash</key>
 				<string>244961f252d8a5375a4ee3a5cc55d95bb3e4d317</string>
 				<key>path</key>
-				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.tobiasjwm.com.github.tobiasjwm.autopkg-recipes/Endicia/EndiciaMac.munki.recipe</string>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.tobiasjwm.tobiasjwm-recipes/Endicia/EndiciaMac.munki.recipe</string>
 				<key>sha256_hash</key>
 				<string>a616c76e83339ca320bfbc308a21951bbcb9e427ca0edb43626ed1ca72a0f060</string>
 			</dict>
