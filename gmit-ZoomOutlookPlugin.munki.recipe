@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.gmit-ZoomOutlookPlugin</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/Zoom</string>
+		<key>NAME</key>
+		<string>zoomoutlookplugin</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array/>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Browser Plugins</string>
+			<key>description</key>
+			<string>The Zoom Plugin for Outlook installs a button on the Microsoft Outlook tool bar to enable you to start or schedule a meeting with one-click.</string>
+			<key>developer</key>
+			<string>Zoom Video Communications, Inc.</string>
+			<key>display_name</key>
+			<string>Zoom Outlook Plugin</string>
+			<key>icon_name</key>
+			<string>zoom_outlook_plugin.png</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>update_for</key>
+			<array>
+				<string>Zoom</string>
+			</array>
+			<key>minimum_os_version</key>
+			<string>10.10.0</string>
+			<key>maximum_os_version</key>
+			<string>10.13.99</string>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.joshua-d-miller.autopkg.munki.zoomoutlookplugin</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.zoomoutlookplugin</key>
+			<dict>
+				<key>git_hash</key>
+				<string>17e323395525c736ae43a134480cca61fa1e465c</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Zoom/ZoomOutlookPlugin.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>373dd6e700bdaa51144f9026d72cf3027af86172b33f48bb53c1d6f99b433d6d</string>
+			</dict>
+			<key>com.github.joshua-d-miller.download.zoomoutlookplugin</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b6a314e030665f95d66505eaee3d4dea410c0fdc</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Zoom/ZoomOutlookPlugin.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>86ed1e7392c64dd2c55843e4c288a6a3738d675551ec36bdca8dda013a413ef0</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
