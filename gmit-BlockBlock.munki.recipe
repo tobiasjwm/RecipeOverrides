@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.gmit-BlockBlock</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/Objective-See</string>
+		<key>DOWNLOAD_PAGE_URL</key>
+		<string>https://objective-see.com/products/blockblock.html</string>
+		<key>NAME</key>
+		<string>BlockBlock</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Security</string>
+			<key>description</key>
+			<string>https://objective-see.com/products/blockblock.html
+
+Me: "please alert me anytime, anything is persistently installed" 
+BlockBlock: "you got it"
+Malware installs itself persistently, to ensure it's automatically re-executed at reboot. BlockBlock continually monitors common persistence locations and displays an alert whenever a persistent component is added to the OS.
+
+BlockBlock is currently still a beta product. This version isn't as fully tested as Objective-See's other software, and thus may contain bugs. If you find any issues while using this beta, please send an email to bugs@objective-see.com and I'll try fix them ASAP!
+            </string>
+			<key>developer</key>
+			<string>Objective-See</string>
+			<key>display_name</key>
+			<string>%NAME%</string>
+			<key>icon_name</key>
+			<string>BlockBlock.png</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>preuninstall_script</key>
+			<string>#!/bin/bash
+PATH=/bin:/usr/bin:/sbin
+# Per instructions at https://objetive-see.com/products/blockblock.html
+# We add some conditionals around the `launchctl`, `rm` and other commands
+# because the presence of the BlockBlock_Install.app does not guarantee
+# the app was actually installed.
+
+# uninstall kext
+kextunload -b com.objectiveSee.kext.BlockBlock
+if [[ -e /Library/Extensions/BlockBlock.kext ]]; then
+    rm -rf /Library/Extensions/BlockBlock.kext
+fi
+
+# uninstall launch daemon
+if [[ -e /Library/LaunchDaemons/com.objectiveSee.blockblock.plist ]]; then
+    launchctl unload /Library/LaunchDaemons/com.objectiveSee.blockblock.plist
+    rm -rf /Library/LaunchDaemons/com.objectiveSee.blockblock.plist
+fi
+
+# uninstall launch agent
+# TODO: How should this be handled via Munki on (possibily multiusuer)
+#       machine?
+#launchctl unload ~/Library/LaunchAgents/com.objectiveSee.blockblock.plist
+#rm -rf ~/Library/LaunchAgents/com.objectiveSee.blockblock.plist
+
+# remove application's support directory (log file, etc)
+# TODO: How should this be handled via Munki on (possibily multiusuer)
+#       machine?
+#rm -rf ~/Library/Application Support/com.objectiveSee.BlockBlock
+
+# remove binary &amp; make all running tasks are killed
+rm -rf /Applications/BlockBlock.app /Applications/BlockBlock_Installer.app
+killall BlockBlock
+
+exit 0
+            </string>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jps3.munki.BlockBlock</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jps3.download.BlockBlock</key>
+			<dict>
+				<key>git_hash</key>
+				<string>358904c0dd387b919ae697dd80d908530a7eb9c0</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jps3-recipes/Objective-See/BlockBlock.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>840f19e6004224c1d201d86432dd40a7e00e851207f77f89b44b988e7d7283a3</string>
+			</dict>
+			<key>com.github.jps3.munki.BlockBlock</key>
+			<dict>
+				<key>git_hash</key>
+				<string>deb0da44bdde7b089bcdfefa12e57e06e7901ee5</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jps3-recipes/Objective-See/BlockBlock.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>9ee38e51829e7ae4a673d66beb0af3f536bd30cbbe26049de5860069335d2e9b</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.gmit-AppleSavinPrinterDrivers</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_CATEGORY</key>
+		<string>Drivers</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>printers/drivers</string>
+		<key>NAME</key>
+		<string>AppleSavinPrinterDrivers</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>%MUNKI_CATEGORY%</string>
+			<key>description</key>
+			<string>Provides the latest Savin printing and scanning software for OS X.</string>
+			<key>display_name</key>
+			<string>Savin Printer Drivers</string>
+			<key>name</key>
+			<string>%NAME%</string>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.n8felton.munki.AppleSavinPrinterDrivers</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>com.github.n8felton.shared/AppleSupportDownloadInfoProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>fcf39bbc73723909046304d87c5b203115284afa</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/SharedProcessors/AppleSupportDownloadInfoProvider.py</string>
+				<key>sha256_hash</key>
+				<string>0e4fbdaa441413932140296e4b93cc1bfdd18cb83666279dd581fcd497769638</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.n8felton.download.AppleSavinPrinterDrivers</key>
+			<dict>
+				<key>git_hash</key>
+				<string>2dc0d2dc5d0ad32174c5164f5bf2493df26d1b3f</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/ApplePrinterDrivers/AppleSavinPrinterDrivers.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>946dd28a203c57fe46bd69e2b8c10550697291f788a8f6fd4d759ad026ca7e9f</string>
+			</dict>
+			<key>com.github.n8felton.munki.AppleSavinPrinterDrivers</key>
+			<dict>
+				<key>git_hash</key>
+				<string>5c4eefbfbbf233228e8c689221f5b58e8dd7d50c</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/ApplePrinterDrivers/AppleSavinPrinterDrivers.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>a540985ef6c4472e049cb3c5ba88228c21e85f4ccd98d29a0891ef17ce62359f</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

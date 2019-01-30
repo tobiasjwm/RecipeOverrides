@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.gmit-ShareFile Sync</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/Citrix</string>
+		<key>NAME</key>
+		<string>ShareFileSync</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>File Sharing</string>
+			<key>description</key>
+			<string>ShareFile Sync for Mac is designed to provide ShareFile customers with an easy way to access and synchronize personal folders from your ShareFile account to your local computer.</string>
+			<key>developer</key>
+			<string>Citrix</string>
+			<key>display_name</key>
+			<string>ShareFile Sync</string>
+			<key>icon_name</key>
+			<string>ShareFile_Desktop.png</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.dataJAR-recipes.munki.ShareFile Sync</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.dataJAR-recipes.download.ShareFile Sync</key>
+			<dict>
+				<key>git_hash</key>
+				<string>04418fe295c030861ed251b72837b24af72fa8be</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/ShareFile Sync/ShareFile Sync.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>cef56e1a26cdd12e3635d58e03a8bcb3db2544036c03316dbb1e4466e712b087</string>
+			</dict>
+			<key>com.github.dataJAR-recipes.munki.ShareFile Sync</key>
+			<dict>
+				<key>git_hash</key>
+				<string>04418fe295c030861ed251b72837b24af72fa8be</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/ShareFile Sync/ShareFile Sync.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>215bc303e0451c6c95038d70bff323182fb4680105937a6aaf448939ff6e02b9</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
