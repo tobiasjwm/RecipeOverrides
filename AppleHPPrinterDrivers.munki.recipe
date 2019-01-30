@@ -37,11 +37,11 @@
 			<key>com.github.n8felton.shared/AppleSupportDownloadInfoProvider</key>
 			<dict>
 				<key>git_hash</key>
-				<string>228a3c268a6d52727263da64de69d8d23fa4b11c</string>
+				<string>fcf39bbc73723909046304d87c5b203115284afa</string>
 				<key>path</key>
-				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/SharedProcessors/AppleSupportDownloadInfoProvider.py</string>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/SharedProcessors/AppleSupportDownloadInfoProvider.py</string>
 				<key>sha256_hash</key>
-				<string>cb97c7d29684d437fd11fc5aa9781f5185659d1c0c78d1979b1c32d7f77d90e1</string>
+				<string>0e4fbdaa441413932140296e4b93cc1bfdd18cb83666279dd581fcd497769638</string>
 			</dict>
 		</dict>
 		<key>parent_recipes</key>
@@ -51,7 +51,7 @@
 				<key>git_hash</key>
 				<string>3c8ce8ebe981dee6e1697253d84e92d566bcdaf3</string>
 				<key>path</key>
-				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/ApplePrinterDrivers/AppleHPPrinterDrivers.download.recipe</string>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/ApplePrinterDrivers/AppleHPPrinterDrivers.download.recipe</string>
 				<key>sha256_hash</key>
 				<string>72f8cd1ad26ee90a4d0b4205c0ca953845391691c8498d91c029b1e598846767</string>
 			</dict>
@@ -60,7 +60,7 @@
 				<key>git_hash</key>
 				<string>6f54c8daa3e674ab615cffbba0630ba7617b3d94</string>
 				<key>path</key>
-				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/ApplePrinterDrivers/AppleHPPrinterDrivers.munki.recipe</string>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/ApplePrinterDrivers/AppleHPPrinterDrivers.munki.recipe</string>
 				<key>sha256_hash</key>
 				<string>b6bd8b24557682f6378ca3fc5041185ae8c70b620bdc69c48659cd67dced28fc</string>
 			</dict>
