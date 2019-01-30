@@ -18,10 +18,10 @@
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>production</string>
+				<string>testing</string>
 			</array>
 			<key>category</key>
-			<string>Social</string>
+			<string>File Sharing</string>
 			<key>description</key>
 			<string>Box Drive is natively integrated into Windows Explorer and Mac Finder so it's built right into the way you already work.</string>
 			<key>developer</key>
@@ -49,18 +49,16 @@
 			<string>uninstall_script</string>
 			<key>uninstall_script</key>
 			<string>#!/bin/bash
-		
-		/Library/Application\ Support/Box/uninstall_box_drive</string>
+	/Library/Application\ Support/Box/uninstall_box_drive</string>
 			<key>uninstallable</key>
 			<true/>
 			<key>uninstallcheck_script</key>
 			<string>#!/bin/bash
-		
-		if [ -e "/Applications/Box.app" ] ; then
-			exit 0
-		else
-			exit 1
-		fi</string>
+	if [ -e "/Applications/Box.app" ] ; then
+		exit 0
+	else
+		exit 1
+	fi</string>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
