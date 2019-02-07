@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.gmit-Waterfox</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_CATEGORY</key>
+		<string>Browsers</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/Waterfox</string>
+		<key>NAME</key>
+		<string>Waterfox</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>Waterfox</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>%MUNKI_CATEGORY%</string>
+			<key>description</key>
+			<string>Waterfox is a free, open and privacy focused web browser built on the foundations of Firefox, with an aim to be speedy and ethical, and maintain support for legacy extensions dropped by modern browsers.</string>
+			<key>developer</key>
+			<string>Waterfox</string>
+			<key>display_name</key>
+			<string>Waterfox</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jpiel.munki.Waterfox</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jpiel.download.Waterfox</key>
+			<dict>
+				<key>git_hash</key>
+				<string>df42c4b1337353005d047ce57d3c0fe85f2784b4</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jpiel-recipes/Waterfox/Waterfox.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>75ebdb0b48f8f163d9c90a74153d5f686244c2984919c59acdd92fdff592d9de</string>
+			</dict>
+			<key>com.github.jpiel.munki.Waterfox</key>
+			<dict>
+				<key>git_hash</key>
+				<string>5afb4b76b9f42325251fb442e5706af85497feac</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jpiel-recipes/Waterfox/Waterfox.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>a4c5acfd67dc0888a951c01c94b03779b1f4f99967a1caedd77173881bbfe0a4</string>
+			</dict>
+			<key>com.github.jpiel.pkg.Waterfox</key>
+			<dict>
+				<key>git_hash</key>
+				<string>5afb4b76b9f42325251fb442e5706af85497feac</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jpiel-recipes/Waterfox/Waterfox.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>55a8d3421e154b9909ea71a435aef1b910320f2279ff4da843ee2d8dde9fb2e9</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
