@@ -38,6 +38,8 @@
 			<string>Microsoft</string>
 			<key>display_name</key>
 			<string>Microsoft Remote Desktop</string>
+			<key>icon_name</key>
+			<string>MSRemoteDesktop.png</string>
 			<key>minimum_os_version</key>
 			<string>10.11.0</string>
 			<key>name</key>

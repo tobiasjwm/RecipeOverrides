@@ -30,6 +30,8 @@
 			<string>Waterfox</string>
 			<key>display_name</key>
 			<string>Waterfox</string>
+			<key>icon_name</key>
+			<string>Waterfox.png</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
