@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.install.gmit-Recipe Robot</string>
+	<key>Input</key>
+	<dict>
+		<key>GITHUB_REPO</key>
+		<string>homebysix/recipe-robot</string>
+		<key>NAME</key>
+		<string>Recipe Robot</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.homebysix.install.RecipeRobot</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.homebysix.download.RecipeRobot</key>
+			<dict>
+				<key>git_hash</key>
+				<string>fa81cb1eb2df540e76d6a54bf3fd92d6081ce66f</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Recipe Robot/Recipe Robot.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>cacd7651b98fe1d677212677236ecd7c4d5bf9ca3b990454d95a3b6ed18d9cdc</string>
+			</dict>
+			<key>com.github.homebysix.install.RecipeRobot</key>
+			<dict>
+				<key>git_hash</key>
+				<string>abb8a7a1dd6f0dfa3e23de17829e083126474304</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Recipe Robot/Recipe Robot.install.recipe</string>
+				<key>sha256_hash</key>
+				<string>340570e006d28a53417149f2068a45a493aa74d88bc1fd92bbaf848b73450868</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
