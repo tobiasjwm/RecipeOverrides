@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.gmit-LuLu</string>
+	<key>Input</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>LuLu Firewall</string>
+		<key>GITHUB_REPO</key>
+		<string>objective-see/LuLu</string>
+		<key>INCLUDE_PRERELEASES</key>
+		<string>False</string>
+		<key>MUNKI_CATEGORY</key>
+		<string>Security</string>
+		<key>MUNKI_DEVELOPER</key>
+		<string>Objective-See</string>
+		<key>MUNKI_NAME</key>
+		<string>%NAME%</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/%MUNKI_DEVELOPER%</string>
+		<key>NAME</key>
+		<string>LuLu</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>%MUNKI_CATEGORY%</string>
+			<key>description</key>
+			<string>LuLu is the free open-source macOS firewall aiming to block outgoing connections.</string>
+			<key>developer</key>
+			<string>%MUNKI_DEVELOPER%</string>
+			<key>display_name</key>
+			<string>%DISPLAY_NAME%</string>
+			<key>minimum_os_version</key>
+			<string>10.12</string>
+			<key>name</key>
+			<string>%MUNKI_NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>uninstall_script</key>
+			<string>#!/bin/sh
+echo "killing the main app"
+/usr/bin/killall "LuLu" 2&gt; /dev/null
+echo "Unloading and removing kext..."
+/sbin/kextunload /LIbrary/Extensions/LuLu.kext
+/bin/rm -rf /Library/Extensions/LuLu.kext
+# let's rebuild the kernel cache the right way
+#/usr/bin/touch /System/Library/Extensions
+echo "Kext removed, unloading and removing launch daemon and plist"
+/bin/launchctl unload -w /Library/LaunchDaemons/com.objective-see.lulu.plist
+/bin/rm /Library/LaunchDaemons/com.objective-see.lulu.plist
+echo "Unloaded and removed launch daemon and plist, removing the main app"
+/bin/rm -rf /Applications/LuLu.app
+echo "removed the main app, removing LuLu main folder"
+/bin/rm -rf /Library/Objective-See/LuLu
+echo "killing the processes..."
+#/usr/bin/killall "LuLu" 2&gt; /dev/null
+/usr/bin/killall "com.objective-see.luluHelper" 2&gt; /dev/null
+/usr/bin/killall "LuLu Helper" 2&gt; /dev/null
+echo "uninstall completed"
+exit 0
+            </string>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.apettinen.munki.LuLu</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.apettinen.download.LuLu</key>
+			<dict>
+				<key>git_hash</key>
+				<string>80a34393758353e42c581472f21fc4b82c3e3d18</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.apettinen-recipes/LuLu/LuLu.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>1e34811832ac3d0d0ec558d3da2a0caa2e3b00a11cf0e188964f04cf8c786b2d</string>
+			</dict>
+			<key>com.github.apettinen.munki.LuLu</key>
+			<dict>
+				<key>git_hash</key>
+				<string>0af080dd3dade5f0c5fdb19a2d2d8514ac41d7f2</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.apettinen-recipes/LuLu/LuLu.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>31dc51fb38a72075ba243f54967915d67b48e83f502852ec0a96882b997e49d9</string>
+			</dict>
+			<key>com.github.apettinen.pkg.LuLu</key>
+			<dict>
+				<key>git_hash</key>
+				<string>0af080dd3dade5f0c5fdb19a2d2d8514ac41d7f2</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.apettinen-recipes/LuLu/LuLu.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>4ebb9c81a7e0bdeb89197ae5cd459108e134930a1f77c69b687041dc6f9ecd55</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.gmit-Brave</string>
+	<key>Input</key>
+	<dict>
+		<key>INCLUDE_PRERELEASES</key>
+		<string></string>
+		<key>MUNKI_CATEGORY</key>
+		<string>Browsers</string>
+		<key>MUNKI_DEVELOPER</key>
+		<string>Brave Software Inc.</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/%NAME%</string>
+		<key>NAME</key>
+		<string>Brave</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>%MUNKI_CATEGORY%</string>
+			<key>description</key>
+			<string>The new Brave browser automatically blocks ads and trackers, making it faster and safer than your current browser.</string>
+			<key>developer</key>
+			<string>%MUNKI_DEVELOPER%</string>
+			<key>display_name</key>
+			<string>Brave browser</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.apettinen.munki.brave</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.apettinen.download.brave</key>
+			<dict>
+				<key>git_hash</key>
+				<string>afa175cf659e0f24673552e1ae692f70c6b3fba8</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.apettinen-recipes/Brave/Brave.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>3784128b530a58f0099be57acaf0ea1d6ff170d70d43126421c73db126289ca5</string>
+			</dict>
+			<key>com.github.apettinen.munki.brave</key>
+			<dict>
+				<key>git_hash</key>
+				<string>5553cc753f3557eee17d2be61a0f6bcf6eb9bce4</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.apettinen-recipes/Brave/Brave.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>5a9bfc082ba2dcc4d6211a2ab64ff72e466b8789d04d6f03106e2bf3cfc08c33</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
