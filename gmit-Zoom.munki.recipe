@@ -9,7 +9,7 @@
 		<key>BUNDLE_ID</key>
 		<string>us.zoom.xos</string>
 		<key>DOWNLOAD_URL</key>
-		<string>https://zoom.us/client/latest/zoomusInstaller.pkg</string>
+		<string>https://zoom.us/client/latest/ZoomInstallerIT.pkg</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/Zoom</string>
 		<key>NAME</key>
@@ -18,12 +18,14 @@
 		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.28.10 (KHTML, like Gecko) Version/6.0.3 Safari/536.28.10</string>
 		<key>pkginfo</key>
 		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>zoom.us</string>
+			</array>
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
 			</array>
-			<key>category</key>
-			<string>Communication</string>
 			<key>description</key>
 			<string>The Zoom app provides cloud-hosted video conferencing, plus online meetings and group messaging.</string>
 			<key>developer</key>
@@ -32,8 +34,6 @@
 			<string>Zoom</string>
 			<key>icon_name</key>
 			<string>zoom.png</string>
-			<key>minimum_os_version</key>
-			<string>10.10.0</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -69,11 +69,11 @@
 			<key>com.github.homebysix.pkg.Zoom</key>
 			<dict>
 				<key>git_hash</key>
-				<string>b22ee907d313d61a7cae79e8c4ec27748ef8402c</string>
+				<string>23dad6b22487ba74de61d62045b6b7775de5009d</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Zoom/Zoom.pkg.recipe</string>
 				<key>sha256_hash</key>
-				<string>ca97cafeee364f239c454a4a8366d5effd47d7cab470d7e9f50393a732217f9e</string>
+				<string>06e0a3a261c87d4972323bbbc0bdb0c2a7c76a7443d9145f0548bc3d04fb4e26</string>
 			</dict>
 		</dict>
 	</dict>
