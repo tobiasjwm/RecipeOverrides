@@ -23,7 +23,9 @@
 			<key>category</key>
 			<string>File Sharing</string>
 			<key>description</key>
-			<string>Box Drive is natively integrated into Windows Explorer and Mac Finder so it's built right into the way you already work.</string>
+			<string>Box Drive is the only unlimited cloud drive built for the enterprise.  Access billions of files from the comfort of your desktop without needing to take up much of your actual hard drive space.  Work with these files in the cloud just as if they were on your desktop through the Finder.  Whether you create a new Microsoft Word document or edit a PDF in Adobe, any changes you make automatically save back to Box.  You can also right-click any file or folder to take advantage of collaborative Box features such as sharing and locking or creating Box Notes.
+
+For more information about Box Drive and incorporating it into your workflow, please see &lt;a href="https://globalmac-it.itglue.com/1673628/docs/1147218"&gt;our FAQ&lt;/a&gt;.</string>
 			<key>developer</key>
 			<string>Box</string>
 			<key>display_name</key>
@@ -37,7 +39,7 @@
 			<key>preinstall_alert</key>
 			<dict>
 				<key>alert_detail</key>
-				<string>Box Drive cannot be installed on a device that is already running Box Sync. You will need to fully remove Box Sync before you can install Box Drive. Please contact GlobalMac IT for assistance.</string>
+				<string>Box Drive cannot run on a device that is already running Box Sync. If Box Sync is installed, the Box Drive installer will remove Box Sync and all local Box files. If any files in Box Sync did not upload, they will be copied to a special folder and you will be notified.</string>
 				<key>alert_title</key>
 				<string>Notice to Box Sync Users</string>
 			</dict>
