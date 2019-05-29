@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.gmit-Citrix Files for Mac</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/Citrix</string>
+		<key>NAME</key>
+		<string>CitrixFiles</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>Citrix Files</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Citrix Files for Mac allows users with a ShareFile license to interact with all their files directly from the Finder. Files do not need to be synced locally. Quick access to sharing, requesting, and other file options are available through the right click menu.</string>
+			<key>display_name</key>
+			<string>Citrix Files for Mac</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>unattended_uninstall</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.dataJAR-recipes.munki.Citrix Files for Mac</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.dataJAR-recipes.download.Citrix Files for Mac</key>
+			<dict>
+				<key>git_hash</key>
+				<string>7c597df3fc9a0777b2184b8b84be0ffbb7f4d1b8</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/Citrix Files for Mac/Citrix Files for Mac.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>37efc93878ccb7cb095b60d82df0192158ffc2a1040a0868959c1b0f167a72c7</string>
+			</dict>
+			<key>com.github.dataJAR-recipes.munki.Citrix Files for Mac</key>
+			<dict>
+				<key>git_hash</key>
+				<string>7c597df3fc9a0777b2184b8b84be0ffbb7f4d1b8</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/Citrix Files for Mac/Citrix Files for Mac.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>77763fb37b86be226d5b8763dbb45a858ff9304ac10624a27e24575f0d36dc75</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
