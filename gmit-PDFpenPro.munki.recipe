@@ -34,6 +34,8 @@ Add signatures, text, and images. Make changes and correct typos. OCR scanned do
 			<string>SmileSoftware</string>
 			<key>display_name</key>
 			<string>PDFpenPro 11</string>
+			<key>icon_name</key>
+			<string>PDFpenPro10.png</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>preinstall_alert</key>
