@@ -68,17 +68,27 @@ exit 0</string>
 	<key>ParentRecipeTrustInfo</key>
 	<dict>
 		<key>non_core_processors</key>
-		<dict/>
+		<dict>
+			<key>com.github.keeleysam.recipes.GoogleTalkPlugin/MunkiPkginfoReceiptsEditor</key>
+			<dict>
+				<key>git_hash</key>
+				<string>2ff1e1e57747ecbccc47e18b270a721a1911abe3</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes/GoogleTalkPlugin/MunkiPkginfoReceiptsEditor.py</string>
+				<key>sha256_hash</key>
+				<string>10ce8c0b0efa75df45cee8ba4a35d8e268467aefc120d3650e069da8699b337b</string>
+			</dict>
+		</dict>
 		<key>parent_recipes</key>
 		<dict>
 			<key>com.github.foigus.munki.microsoftremotedesktop</key>
 			<dict>
 				<key>git_hash</key>
-				<string>e676a9849170a3aa81ccece388a2c4fed93942ed</string>
+				<string>7b8997babc73000f9c0b9a7447578fd2fea309cf</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.foigus-recipes/Microsoft/MicrosoftRemoteDesktop.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>0451dc71895f21aef3f269be46d5752be24f6c65c104b8784705426c3a27f2ec</string>
+				<string>2669ebd1b37e8f8f9fe252c680e45421ae17fa374f05b3748cf35b08c4effc5b</string>
 			</dict>
 			<key>com.github.rtrouton.download.microsoftremotedesktop</key>
 			<dict>
