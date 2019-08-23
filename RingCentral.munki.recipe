@@ -18,14 +18,14 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Communication</string>
 			<key>description</key>
 			<string>RingCentral for Desktop turns your PC into your personal business command center. Manage all your business communication from one app – take calls, play voicemails, send text and faxes – anywhere.</string>
 			<key>display_name</key>
 			<string>RingCentral</string>
 			<key>icon_name</key>
 			<string>RingCentral for Mac.png</string>
-			<key>category</key>
-			<string>Communication</string>
 			<key>minimum_os_version</key>
 			<string>10.11.0</string>
 			<key>name</key>
@@ -45,18 +45,18 @@
 			<key>com.github.bradclare.download.ringcentral</key>
 			<dict>
 				<key>git_hash</key>
-				<string>b2fd82de7d59f7cbae6ce621882249d50a0b2125</string>
+				<string>9698cce8e5794a5574a3530b6c6b0a74615cba7a</string>
 				<key>path</key>
-				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/RingCentral/RingCentral.download.recipe</string>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/RingCentral/RingCentral.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>f831b78646f4cc897971d5b6b154eb3da2de25311d8782bef206b7968b4d47e8</string>
+				<string>4f780a61efd7072d9329b110dedab4c8f02fc6ea02eb65dc25f154e175f0efd9</string>
 			</dict>
 			<key>com.github.bradclare.munki.ringcentral</key>
 			<dict>
 				<key>git_hash</key>
 				<string>e33c38f8f15677677cc2a653b9ac7cea1ff94bd1</string>
 				<key>path</key>
-				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/RingCentral/RingCentral.munki.recipe</string>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/RingCentral/RingCentral.munki.recipe</string>
 				<key>sha256_hash</key>
 				<string>99495152fd670e099fb21305d085129e1b4cce2dd57abbcbae0e82cd27783492</string>
 			</dict>
