@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.gmit-MicrosoftEdge</string>
+	<key>Input</key>
+	<dict>
+		<key>LINKID</key>
+		<string>2069439</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/%NAME%</string>
+		<key>NAME</key>
+		<string>MicrosoftEdge</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Microsoft's Chromium-based browser</string>
+			<key>developer</key>
+			<string>Microsoft</string>
+			<key>display_name</key>
+			<string>Microsoft Edge</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.n8felton.munki.MicrosoftEdge</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.n8felton.download.MicrosoftEdge</key>
+			<dict>
+				<key>git_hash</key>
+				<string>042ec2d89a90f0f150e774027e3b182902f573e5</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/Microsoft/MicrosoftEdge.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>69ab1bfae43cbe309d7feef6cb6131742dfd569014d9c3f03817bd1e30c07d36</string>
+			</dict>
+			<key>com.github.n8felton.munki.MicrosoftEdge</key>
+			<dict>
+				<key>git_hash</key>
+				<string>042ec2d89a90f0f150e774027e3b182902f573e5</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/Microsoft/MicrosoftEdge.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>c0399377e584d8d5ed390d241b784b773e987381313bd96583d34406856e6229</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
