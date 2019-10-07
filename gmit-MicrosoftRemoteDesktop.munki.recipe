@@ -9,7 +9,7 @@
 		<key>DOWNLOADURL</key>
 		<string>https://go.microsoft.com/fwlink/?linkid=%PRODUCTID%</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Microsoft</string>
+		<string>apps/%NAME%</string>
 		<key>NAME</key>
 		<string>MicrosoftRemoteDesktop</string>
 		<key>PRODUCTID</key>
@@ -20,6 +20,8 @@
 		<string>Desktop</string>
 		<key>VENDOR</key>
 		<string>Microsoft</string>
+		<key>pkg_ids_set_optional_true</key>
+		<array/>
 		<key>pkginfo</key>
 		<dict>
 			<key>blocking_applications</key>
@@ -38,25 +40,8 @@
 			<string>Microsoft</string>
 			<key>display_name</key>
 			<string>Microsoft Remote Desktop</string>
-			<key>icon_name</key>
-			<string>MSRemoteDesktop.png</string>
-			<key>minimum_os_version</key>
-			<string>10.11.0</string>
 			<key>name</key>
 			<string>%NAME%</string>
-			<key>preinstall_script</key>
-			<string>#!/bin/bash
-
-# Check if a version of MRD exists and remove  
-# it before installing v 10.x.
-
-if [[ -e "/Applications/Microsoft Remote Desktop.app" ]] ; then
-	/bin/echo "An older version of MRD exists. Removing."
-	/bin/rm -R "/Applications/Microsoft Remote Desktop.app"
-	/usr/sbin/pkgutil --forget com.microsoft.rdc.mac
-fi
-
-exit 0</string>
 			<key>unattended_install</key>
 			<true/>
 			<key>unattended_uninstall</key>
