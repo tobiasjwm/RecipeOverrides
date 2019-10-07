@@ -18,6 +18,8 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Browsers</string>
 			<key>description</key>
 			<string>Microsoft's Chromium-based browser</string>
 			<key>developer</key>
@@ -35,26 +37,45 @@
 	<key>ParentRecipeTrustInfo</key>
 	<dict>
 		<key>non_core_processors</key>
-		<dict/>
+		<dict>
+			<key>MicrosoftEdgeURLProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>2f1f7181aa22b73085c15226c30a184f242e98a9</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/Microsoft/MicrosoftEdgeURLProvider.py</string>
+				<key>sha256_hash</key>
+				<string>811c4a435fa5a597622f03581a3202830c21d7ea132923d63110d7a3b6303424</string>
+			</dict>
+			<key>com.github.n8felton.shared/RemoteFilenameFinder</key>
+			<dict>
+				<key>git_hash</key>
+				<string>2639e933b892161fb1b33bacef8366e21f9fdb0b</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/SharedProcessors/RemoteFilenameFinder.py</string>
+				<key>sha256_hash</key>
+				<string>bceb7885f9673be965c302db057ea506f9af0f54a25b243b90391fe32fbf45d1</string>
+			</dict>
+		</dict>
 		<key>parent_recipes</key>
 		<dict>
 			<key>com.github.n8felton.download.MicrosoftEdge</key>
 			<dict>
 				<key>git_hash</key>
-				<string>042ec2d89a90f0f150e774027e3b182902f573e5</string>
+				<string>2f1f7181aa22b73085c15226c30a184f242e98a9</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/Microsoft/MicrosoftEdge.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>69ab1bfae43cbe309d7feef6cb6131742dfd569014d9c3f03817bd1e30c07d36</string>
+				<string>8b714d220e22901c4115000ae7d21c45489cef2da27e4f5fe1463705c8eb077a</string>
 			</dict>
 			<key>com.github.n8felton.munki.MicrosoftEdge</key>
 			<dict>
 				<key>git_hash</key>
-				<string>042ec2d89a90f0f150e774027e3b182902f573e5</string>
+				<string>2f1f7181aa22b73085c15226c30a184f242e98a9</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/Microsoft/MicrosoftEdge.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>c0399377e584d8d5ed390d241b784b773e987381313bd96583d34406856e6229</string>
+				<string>bbbd6550b3e723f64b0824f7a09f7a64c4bef6a77dbae8e9f3a51a1ae3b4be2d</string>
 			</dict>
 		</dict>
 	</dict>

@@ -22,20 +22,20 @@
 			<key>com.github.andrewvalentine.install.SuspiciousPackageApp</key>
 			<dict>
 				<key>git_hash</key>
-				<string>bb4dd2b4aa62d71d58b8429f6e23f99dc519bf12</string>
+				<string>0bc52b0ee28a620e0151f3741c208dd59794b6a7</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.andrewvalentine-recipes/SuspiciousPackageApp/SuspiciousPackageApp.install.recipe</string>
 				<key>sha256_hash</key>
-				<string>ae28422fe472e8ec6f316bd5bcaab238fabad53ca27cea052508d62193dc3cde</string>
+				<string>101b9460ea23e3d84b5e8497bb9dd9e8371d57e5d644943206652936b0f2bd4b</string>
 			</dict>
 			<key>com.github.poundbangbash.eholtam-recipes.download.SuspiciousPackageApp</key>
 			<dict>
 				<key>git_hash</key>
-				<string>fb913446095351144565af29f94f4a504ee3cbb4</string>
+				<string>865ba08bc02a966f3b9313c2635736e2cc625648</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.eholtam-recipes/SuspiciousPackageApp/SuspiciousPackageApp.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>9ec1ac6ad423e48fab863b34292f5b679f40e609ce146f3dd055a5371d1bd249</string>
+				<string>2921d0eaffa7b853f673f59c81e9632674501e5512da30ca4e2944c8705ab359</string>
 			</dict>
 			<key>com.github.poundbangbash.eholtam-recipes.pkg.SuspiciousPackageApp</key>
 			<dict>

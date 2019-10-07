@@ -34,10 +34,10 @@
 			<string>Zoom</string>
 			<key>icon_name</key>
 			<string>zoom.png</string>
-			<key>name</key>
-			<string>%NAME%</string>
 			<key>minimum_os_version</key>
 			<string>10.9.0</string>
+			<key>name</key>
+			<string>%NAME%</string>
 			<key>unattended_install</key>
 			<true/>
 		</dict>
@@ -62,20 +62,20 @@
 			<key>com.github.homebysix.munki.Zoom</key>
 			<dict>
 				<key>git_hash</key>
-				<string>b22ee907d313d61a7cae79e8c4ec27748ef8402c</string>
+				<string>1c00bc89a0183a2a0b4b6aa6c59d17fe9481addc</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Zoom/Zoom.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>fa000bba91191544f0476df88da9891f9558b1e95cba8a24d343d41d0310bba7</string>
+				<string>b5a04ca7d79aa04b5e78c92f1895ee27d6a8e389ab725af6737bcfaf2472a517</string>
 			</dict>
 			<key>com.github.homebysix.pkg.Zoom</key>
 			<dict>
 				<key>git_hash</key>
-				<string>23dad6b22487ba74de61d62045b6b7775de5009d</string>
+				<string>fe3763e37a6aeb21dd2fa32b8945cb99b764ffce</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Zoom/Zoom.pkg.recipe</string>
 				<key>sha256_hash</key>
-				<string>06e0a3a261c87d4972323bbbc0bdb0c2a7c76a7443d9145f0548bc3d04fb4e26</string>
+				<string>1092184e98b6e7bb70c8733ea18f5f8cfeab17a2f75658c9ba814b6f88a38c6c</string>
 			</dict>
 		</dict>
 	</dict>

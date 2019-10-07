@@ -16,13 +16,13 @@
 		<string>https://updates.smilesoftware.com/com.smileonmymac.PDFpenPro.xml</string>
 		<key>pkginfo</key>
 		<dict>
-			<key>catalogs</key>
-			<array>
-				<string>testing</string>
-			</array>
 			<key>blocking_applications</key>
 			<array>
 				<string>PDFpenPro.app</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
 			</array>
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>

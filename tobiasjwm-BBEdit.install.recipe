@@ -18,11 +18,11 @@
 			<key>BarebonesURLProvider</key>
 			<dict>
 				<key>git_hash</key>
-				<string>c4a6bacbba3a00ff24f0914efcd9159eb26999ba</string>
+				<string>dae938c712b1e008133e423f8cfb3939b7660683</string>
 				<key>path</key>
-				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Barebones/BarebonesURLProvider.py</string>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Barebones/BarebonesURLProvider.py</string>
 				<key>sha256_hash</key>
-				<string>f23c5f4769d3be3f29d1e573867275ae63e38c23e56b39250478c3159927a33f</string>
+				<string>7ca563f0dc71ec3403ebdb3dd88cecac927043755822817aa6988ca90391d9fa</string>
 			</dict>
 		</dict>
 		<key>parent_recipes</key>
@@ -32,7 +32,7 @@
 				<key>git_hash</key>
 				<string>937886757bbb1981b1179263f2aed613fea1d53d</string>
 				<key>path</key>
-				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Barebones/BBEdit.download.recipe</string>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Barebones/BBEdit.download.recipe</string>
 				<key>sha256_hash</key>
 				<string>8e691f6f1fd0833d602749c7bcd73566b21212773f7f6b5b369c7f08630822c4</string>
 			</dict>
@@ -41,7 +41,7 @@
 				<key>git_hash</key>
 				<string>42544a436263fd20e98dc343d47b09d1e0231558</string>
 				<key>path</key>
-				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/Barebones/BBEdit.install.recipe</string>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/Barebones/BBEdit.install.recipe</string>
 				<key>sha256_hash</key>
 				<string>a5bf0cacf6f37d5b94f5e2143cd737551cdcc69f90cd93216526fed728993b18</string>
 			</dict>
@@ -50,7 +50,7 @@
 				<key>git_hash</key>
 				<string>ed4a17ebaabff720e53ff818b2cc0928ed6ac5b5</string>
 				<key>path</key>
-				<string>/Users/ladmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/Barebones/BBEdit.pkg.recipe</string>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/Barebones/BBEdit.pkg.recipe</string>
 				<key>sha256_hash</key>
 				<string>a28f6114625bfd3a340f34262edda3c1e9b5a398400b53d829d0a33867315244</string>
 			</dict>
