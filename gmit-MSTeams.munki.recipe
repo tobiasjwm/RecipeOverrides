@@ -21,7 +21,7 @@
 		<key>MUNKI_NAME</key>
 		<string>%NAME%</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Microsoft</string>
+		<string>apps/%NAME%</string>
 		<key>NAME</key>
 		<string>MSTeams</string>
 		<key>pkginfo</key>
