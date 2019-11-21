@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.RingCentral</string>
+	<string>local.munki.gmit-RingCentral</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.TextMate2</string>
+	<string>local.munki.gmit-TextMate2</string>
 	<key>Input</key>
 	<dict>
 		<key>BRANCH</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.Slack</string>
+	<string>local.munki.gmit-Slack</string>
 	<key>Input</key>
 	<dict>
 		<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>

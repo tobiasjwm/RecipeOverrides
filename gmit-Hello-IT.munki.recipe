@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.Hello-IT</string>
+	<string>local.munki.gmit-Hello-IT</string>
 	<key>Input</key>
 	<dict>
 		<key>GITHUB_REPO</key>

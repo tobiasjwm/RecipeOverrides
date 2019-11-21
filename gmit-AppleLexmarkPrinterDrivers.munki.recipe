@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.AppleXeroxPrinterDrivers</string>
+	<string>local.munki.gmit-AppleLexmarkPrinterDrivers</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_CATEGORY</key>
@@ -11,7 +11,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>printers/drivers</string>
 		<key>NAME</key>
-		<string>AppleXeroxPrinterDrivers</string>
+		<string>AppleLexmarkPrinterDrivers</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -21,15 +21,15 @@
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>
 			<key>description</key>
-			<string>Provides the latest Xerox printing and scanning software for OS X.</string>
+			<string>Provides the latest Lexmark printing and scanning software for OS X.</string>
 			<key>display_name</key>
-			<string>Xerox Printer Drivers</string>
+			<string>Lexmark Printer Drivers</string>
 			<key>name</key>
 			<string>%NAME%</string>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.n8felton.munki.AppleXeroxPrinterDrivers</string>
+	<string>com.github.n8felton.munki.AppleLexmarkPrinterDrivers</string>
 	<key>ParentRecipeTrustInfo</key>
 	<dict>
 		<key>non_core_processors</key>
@@ -46,23 +46,23 @@
 		</dict>
 		<key>parent_recipes</key>
 		<dict>
-			<key>com.github.n8felton.download.AppleXeroxPrinterDrivers</key>
+			<key>com.github.n8felton.download.AppleLexmarkPrinterDrivers</key>
 			<dict>
 				<key>git_hash</key>
-				<string>2dc0d2dc5d0ad32174c5164f5bf2493df26d1b3f</string>
+				<string>f8c8f80bb3f8b74f96027f16f3ad8e81cfd05f61</string>
 				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/ApplePrinterDrivers/AppleXeroxPrinterDrivers.download.recipe</string>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/ApplePrinterDrivers/AppleLexmarkPrinterDrivers.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>e9b9ec40d54e681c8cca5b3ba8330d9aea46d4429fa7886b2741dfeb4b7ab57f</string>
+				<string>70ea2b6e3c7b2db9ef78d16ebd2bdd19b63ceeb71d05dddb99736a0f1f094b2b</string>
 			</dict>
-			<key>com.github.n8felton.munki.AppleXeroxPrinterDrivers</key>
+			<key>com.github.n8felton.munki.AppleLexmarkPrinterDrivers</key>
 			<dict>
 				<key>git_hash</key>
-				<string>ebfec316b24b7dcaa361dca57703037ef5e022ce</string>
+				<string>5c4eefbfbbf233228e8c689221f5b58e8dd7d50c</string>
 				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/ApplePrinterDrivers/AppleXeroxPrinterDrivers.munki.recipe</string>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/ApplePrinterDrivers/AppleLexmarkPrinterDrivers.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>500a11d2cf4fe9cbdda9f8c100274055ab2e166dec51f3356a642385ca7e80c6</string>
+				<string>9782bbf7d262873318c52a926a5a0edc8c41018793ba835724a8b023d404aa8f</string>
 			</dict>
 		</dict>
 	</dict>

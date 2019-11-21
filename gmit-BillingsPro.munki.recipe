@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.BillingsPro</string>
+	<string>local.munki.gmit-BillingsPro</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>

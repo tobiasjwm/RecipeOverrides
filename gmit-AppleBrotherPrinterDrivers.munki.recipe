@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.AppleBrotherPrinterDrivers</string>
+	<string>local.munki.gmit-AppleBrotherPrinterDrivers</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_CATEGORY</key>
