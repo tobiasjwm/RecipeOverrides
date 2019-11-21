@@ -42,12 +42,10 @@
 		<dict>
 			<key>com.github.tobiasjwm.download.EndiciaforMac</key>
 			<dict>
-				<key>git_hash</key>
-				<string>9acc49cec77f0990339d01c3bba2550c5697443a</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.tobiasjwm.tobiasjwm-recipes/Endicia/EndiciaMac.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>4758652ff9226cd7a5dbe1c878688987376e714e4b58651fd51513536842a60d</string>
+				<string>88270b0fd332bbb7f9650eafe10c4f43b56f49f75de33eb6ad9743cad611ec1f</string>
 			</dict>
 			<key>com.github.tobiasjwm.munki.EndiciaforMac</key>
 			<dict>

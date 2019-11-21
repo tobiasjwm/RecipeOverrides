@@ -57,11 +57,11 @@
 			<key>com.github.keeleysam.recipes.GoogleTalkPlugin/MunkiPkginfoReceiptsEditor</key>
 			<dict>
 				<key>git_hash</key>
-				<string>2ff1e1e57747ecbccc47e18b270a721a1911abe3</string>
+				<string>e1dabbd362f862b59b58bca501432c90639334f6</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes/GoogleTalkPlugin/MunkiPkginfoReceiptsEditor.py</string>
 				<key>sha256_hash</key>
-				<string>10ce8c0b0efa75df45cee8ba4a35d8e268467aefc120d3650e069da8699b337b</string>
+				<string>1a5182e8e3d70480f87585f5f95508bb4d886b07ae7bf457d6d062f0b8ba4bc6</string>
 			</dict>
 		</dict>
 		<key>parent_recipes</key>
