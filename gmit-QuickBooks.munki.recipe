@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.gmit-QuickBooks</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://http-download.intuit.com/http.intuit/CMO/qbo_client_web/static/release/mac/latest/QuickBooks.dmg</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/%NAME%</string>
+		<key>NAME</key>
+		<string>QuickBooks</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>The most popular version of Americas #1 small business financial software helps make your business more profitable.</string>
+			<key>developer</key>
+			<string>Intuit Inc.</string>
+			<key>display_name</key>
+			<string>QuickBooks</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.precursorca.munki.QuickBooks</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.precursorca.download.QuickBooks</key>
+			<dict>
+				<key>git_hash</key>
+				<string>539e58488bd4c489696374f64c1c2f10a825843f</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.precursorca-recipes/QuickBooks/QuickBooks.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>3beac0f026526d36689b62b1aed0ab741374694280f1acb8f156075886cdcd2e</string>
+			</dict>
+			<key>com.github.precursorca.munki.QuickBooks</key>
+			<dict>
+				<key>git_hash</key>
+				<string>539e58488bd4c489696374f64c1c2f10a825843f</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.precursorca-recipes/QuickBooks/QuickBooks.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>36f26b5706c27ff45520d06121ac258b03552cddc3228e2af56f5776bed4cfa2</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
