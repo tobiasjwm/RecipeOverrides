@@ -9,7 +9,7 @@
 		<key>DOWNLOAD_URL</key>
 		<string>https://muzzleapp.com/binaries/muzzle.zip</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Incident57</string>
+		<string>apps/%NAME%</string>
 		<key>NAME</key>
 		<string>Muzzle</string>
 		<key>pkginfo</key>
