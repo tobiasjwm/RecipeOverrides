@@ -53,11 +53,11 @@
 			<key>com.github.apettinen.SharedProcessors/MSTeamsURLProvider</key>
 			<dict>
 				<key>git_hash</key>
-				<string>905211c59e92e9d39501228d71cdec0c45c52517</string>
+				<string>fec81af8ad102c99eff138eff21276d8aa2538ac</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.apettinen-recipes/SharedProcessors/MSTeamsURLProvider.py</string>
 				<key>sha256_hash</key>
-				<string>5d406f9cc396a11432c880566d3a507ca972e23c7d5887f9331c78032d55430b</string>
+				<string>fa578cbda5c63c07b1d598323bf832417f077f8975c006e169d816a3d1a397c0</string>
 			</dict>
 		</dict>
 		<key>parent_recipes</key>

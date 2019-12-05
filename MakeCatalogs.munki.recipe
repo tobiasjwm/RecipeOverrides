@@ -15,11 +15,11 @@
 			<key>MakeCatalogsProcessor</key>
 			<dict>
 				<key>git_hash</key>
-				<string>c32b1b760a158fb4e3a2a014de4b9014f0c01723</string>
+				<string>8574c91661dc067f31a486239fd8f5685c6f4fa0</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Munki/MakeCatalogsProcessor.py</string>
 				<key>sha256_hash</key>
-				<string>d7013c272d5edff003ae5de8218060c335f707aa87aaa578a42e8e64439f4a4e</string>
+				<string>0d274e5269e75b1a1d3a0e75496ccb9107283c416003a0a31583f3d5f3b4547a</string>
 			</dict>
 		</dict>
 		<key>parent_recipes</key>
