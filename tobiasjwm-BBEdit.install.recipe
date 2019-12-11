@@ -18,11 +18,11 @@
 			<key>BarebonesURLProvider</key>
 			<dict>
 				<key>git_hash</key>
-				<string>dae938c712b1e008133e423f8cfb3939b7660683</string>
+				<string>a46693f4b0f0176bc1ee07496c223cfca41b1348</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Barebones/BarebonesURLProvider.py</string>
 				<key>sha256_hash</key>
-				<string>7ca563f0dc71ec3403ebdb3dd88cecac927043755822817aa6988ca90391d9fa</string>
+				<string>9d057626a1fa54ab487d0e7372fb97366cbad5c64b17a12bdd730f60563527f6</string>
 			</dict>
 		</dict>
 		<key>parent_recipes</key>
@@ -30,11 +30,11 @@
 			<key>com.github.autopkg.download.bbedit</key>
 			<dict>
 				<key>git_hash</key>
-				<string>937886757bbb1981b1179263f2aed613fea1d53d</string>
+				<string>55e47128864841e568cf20ccd2b852fea48faa50</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Barebones/BBEdit.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>8e691f6f1fd0833d602749c7bcd73566b21212773f7f6b5b369c7f08630822c4</string>
+				<string>6d8e8c3699f23f9c0511f6e2d6a14c7400b890a729f688014adb287d3666eb03</string>
 			</dict>
 			<key>com.github.rtrouton.install.bbedit</key>
 			<dict>

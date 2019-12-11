@@ -54,11 +54,11 @@
 			<key>com.github.jpiel.download.Waterfox</key>
 			<dict>
 				<key>git_hash</key>
-				<string>4c934ec7bf6c700e194332093a3bf08ceb26ee9d</string>
+				<string>970de0f855964061d9e13a16e9e87e25ff009e22</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jpiel-recipes/Waterfox/Waterfox.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>bbb893af25ab1a3531e4be5612660968c93997c8631151f19213a7d396aa759a</string>
+				<string>777f654f86ce4fd20afabc74c8b229f82e637980a67773a6c6159e9b3ca96a34</string>
 			</dict>
 			<key>com.github.jpiel.munki.Waterfox</key>
 			<dict>
