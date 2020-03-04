@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.gmit-CarbonCopyCloner</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/%NAME%</string>
+		<key>NAME</key>
+		<string>CarbonCopyCloner5</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Disk and folder cloning utility for OS X.</string>
+			<key>display_name</key>
+			<string>Carbon Copy Cloner</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.keeleysam.recipes.CarbonCopyCloner.munki</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.keeleysam.recipes.CarbonCopyCloner.download</key>
+			<dict>
+				<key>git_hash</key>
+				<string>434c5bebcd6799bbdf14b721c52b1385d6d17b3d</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes/CarbonCopyCloner/CarbonCopyCloner.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>26fd70d0f6a4c7ac24be80595dd9d718fd223b01251f25a6c8d9cb5d7f2a40cd</string>
+			</dict>
+			<key>com.github.keeleysam.recipes.CarbonCopyCloner.munki</key>
+			<dict>
+				<key>git_hash</key>
+				<string>bd68c2f451bb7d088705102a1a0fddc543c48f37</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes/CarbonCopyCloner/CarbonCopyCloner.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>758d5ff027094a1177bdc8f110b5df0963ed5762d6b31580923ece8b47cfc04e</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
