@@ -37,11 +37,11 @@
 			<key>com.github.n8felton.shared/AppleSupportDownloadInfoProvider</key>
 			<dict>
 				<key>git_hash</key>
-				<string>fcf39bbc73723909046304d87c5b203115284afa</string>
+				<string>f78b1b685f4b4c92996742c99a5e49dc5586594c</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/SharedProcessors/AppleSupportDownloadInfoProvider.py</string>
 				<key>sha256_hash</key>
-				<string>0e4fbdaa441413932140296e4b93cc1bfdd18cb83666279dd581fcd497769638</string>
+				<string>c1d72f60b9aea45b5ac5dfdf4dad0c9b40eefdd8cdcd6f3c02b9b18d51f243b0</string>
 			</dict>
 		</dict>
 		<key>parent_recipes</key>
@@ -49,11 +49,11 @@
 			<key>com.github.n8felton.download.AppleBrotherPrinterDrivers</key>
 			<dict>
 				<key>git_hash</key>
-				<string>9e036600c1ac7df3e3555a78a0320e233195b295</string>
+				<string>ffce16cbbe20f46ca0e2f48e8541ac8ded6eeb2e</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/ApplePrinterDrivers/AppleBrotherPrinterDrivers.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>37e374fa99165d4980e5a9a494edc6c56e4a34a13729300984b57777acbd0c4e</string>
+				<string>8d4fdb37bb14e73d6b97e532e50e4e9946e909d4f930715acef0860e6be7f8cc</string>
 			</dict>
 			<key>com.github.n8felton.munki.AppleBrotherPrinterDrivers</key>
 			<dict>
