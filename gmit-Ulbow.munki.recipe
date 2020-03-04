@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.gmit-Ulbow</string>
+	<key>Input</key>
+	<dict>
+		<key>INSTALL_DIR</key>
+		<string>Applications</string>
+		<key>MUNKI_CATEGORY</key>
+		<string>Admin Utils</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/%NAME%</string>
+		<key>NAME</key>
+		<string>Ulbow</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>Ulbow</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>%MUNKI_CATEGORY%</string>
+			<key>description</key>
+			<string>Ulbow is the simplest browser for the macOS Unified Log, without losing any of the power of Consolation 3. Uses similar libraries of predicates, filters (including regex), and styles to determine what is shown and how, it’s ideal for the casual user as well as log addicts.</string>
+			<key>developer</key>
+			<string>The Eclectic Company</string>
+			<key>display_name</key>
+			<string>Ulbow</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jpiel.munki.Ulbow</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jpiel.download.Ulbow</key>
+			<dict>
+				<key>git_hash</key>
+				<string>303e8feb784bd0c24bc8e2d9fbd9b08e814b9a40</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jpiel-recipes/Ulbow/Ulbow.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>2a1e8779186b253b58904d423c7e62fd067aff5aae2be235c846c67fecd35d32</string>
+			</dict>
+			<key>com.github.jpiel.munki.Ulbow</key>
+			<dict>
+				<key>git_hash</key>
+				<string>303e8feb784bd0c24bc8e2d9fbd9b08e814b9a40</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jpiel-recipes/Ulbow/Ulbow.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>925445193a8e9b2bfc28f1d9d89f3d07091a809b6096920be3b4e8ed7c7aa81b</string>
+			</dict>
+			<key>com.github.jpiel.pkg.Ulbow</key>
+			<dict>
+				<key>git_hash</key>
+				<string>303e8feb784bd0c24bc8e2d9fbd9b08e814b9a40</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jpiel-recipes/Ulbow/Ulbow.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>3c69278d9ebaa040d9058cc4d5344d6f2715c6f26fbfc0a3992395d3900cfdb8</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
