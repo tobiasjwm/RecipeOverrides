@@ -53,11 +53,11 @@
 			<key>com.github.apettinen.SharedProcessors/MSTeamsURLProvider</key>
 			<dict>
 				<key>git_hash</key>
-				<string>fec81af8ad102c99eff138eff21276d8aa2538ac</string>
+				<string>9480a43b9ade95c56e1f349c9cbecd560f33d3fe</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.apettinen-recipes/SharedProcessors/MSTeamsURLProvider.py</string>
 				<key>sha256_hash</key>
-				<string>fa578cbda5c63c07b1d598323bf832417f077f8975c006e169d816a3d1a397c0</string>
+				<string>adcc1e8eb5152ea0ad0aa74567df57b3362a4bfa723bd10c0acf565196975bca</string>
 			</dict>
 		</dict>
 		<key>parent_recipes</key>
@@ -65,11 +65,11 @@
 			<key>com.github.apettinen.download.MSTeams</key>
 			<dict>
 				<key>git_hash</key>
-				<string>a895d6d9113d0e6054b0d67544941e70a1108cb2</string>
+				<string>dafcd6a39ba45e02d80147c25c6881636828f856</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.apettinen-recipes/MSTeams/MSTeams.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>8b29ca5e0562616136f4075f2655ec538b48948c3ece58aadb14d38001e38fbb</string>
+				<string>c5e919de410a9142086e2e4578c0a564ffe91b06d239576812db6b36207da6f4</string>
 			</dict>
 			<key>com.github.apettinen.munki.MSTeams</key>
 			<dict>
