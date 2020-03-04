@@ -7,13 +7,17 @@
 	<key>Input</key>
 	<dict>
 		<key>LINKID</key>
-		<string>2069439</string>
+		<string>2069148</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
 		<string>MicrosoftEdge</string>
 		<key>pkginfo</key>
 		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>Microsoft Edge</string>
+			</array>
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
@@ -28,10 +32,10 @@
 			<string>Microsoft Edge</string>
 			<key>icon_name</key>
 			<string>MSEdge.png</string>
-			<key>name</key>
-			<string>%NAME%</string>
 			<key>minimum_os_version</key>
 			<string>10.13.6</string>
+			<key>name</key>
+			<string>%NAME%</string>
 			<key>unattended_install</key>
 			<true/>
 		</dict>
@@ -45,20 +49,29 @@
 			<key>MicrosoftEdgeURLProvider</key>
 			<dict>
 				<key>git_hash</key>
-				<string>2f1f7181aa22b73085c15226c30a184f242e98a9</string>
+				<string>f59c87a449a3064e717d6d97a47a254e4f86ad5f</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/Microsoft/MicrosoftEdgeURLProvider.py</string>
 				<key>sha256_hash</key>
-				<string>811c4a435fa5a597622f03581a3202830c21d7ea132923d63110d7a3b6303424</string>
+				<string>9d49b17481f0c81d94228ffce883324516442ef7b1632f9e843e932e7d7a85f6</string>
+			</dict>
+			<key>com.github.keeleysam.recipes.GoogleTalkPlugin/MunkiPkginfoReceiptsEditor</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d097018081313411cc6d8f77bd82f1da3a1b400b</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes/GoogleTalkPlugin/MunkiPkginfoReceiptsEditor.py</string>
+				<key>sha256_hash</key>
+				<string>5d7c2976edc460f6bf5632a5b579405ac3f070782f30fde8c504ac42d01afd99</string>
 			</dict>
 			<key>com.github.n8felton.shared/RemoteFilenameFinder</key>
 			<dict>
 				<key>git_hash</key>
-				<string>2639e933b892161fb1b33bacef8366e21f9fdb0b</string>
+				<string>a905cf6af214bbdf32edaa9d710bec93388ce556</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/SharedProcessors/RemoteFilenameFinder.py</string>
 				<key>sha256_hash</key>
-				<string>bceb7885f9673be965c302db057ea506f9af0f54a25b243b90391fe32fbf45d1</string>
+				<string>4bda15e045de6b44fa608642ccfb5d60cf138725c4b88929bd6b462b4e2bf03d</string>
 			</dict>
 		</dict>
 		<key>parent_recipes</key>
@@ -75,11 +88,11 @@
 			<key>com.github.n8felton.munki.MicrosoftEdge</key>
 			<dict>
 				<key>git_hash</key>
-				<string>2f1f7181aa22b73085c15226c30a184f242e98a9</string>
+				<string>60a0277a7563b15220ee5d13fae60277aaba4724</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/Microsoft/MicrosoftEdge.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>bbbd6550b3e723f64b0824f7a09f7a64c4bef6a77dbae8e9f3a51a1ae3b4be2d</string>
+				<string>0f583ea14a7606edc4de5424ffba2a91f3fa395941aaabb9703151385cceec54</string>
 			</dict>
 		</dict>
 	</dict>
