@@ -30,6 +30,13 @@
 			<string>%MUNKI_DEVELOPER%</string>
 			<key>display_name</key>
 			<string>TextExpander 6</string>
+			<key>preinstall_alert</key>
+			<dict>
+				<key>alert_detail</key>
+				<string>TextExpander requires a commercial software license. You can use TextExpander for free but the demo will stamp the Smile logo on all saved and printed documents until you enter a license.</string>
+				<key>alert_title</key>
+				<string>Commercial Software</string>
+			</dict>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
