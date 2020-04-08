@@ -21,6 +21,7 @@
 			<key>blocking_applications</key>
 			<array>
 				<string>Brave</string>
+				<string>Brave Browser</string>
 			</array>
 			<key>catalogs</key>
 			<array>
