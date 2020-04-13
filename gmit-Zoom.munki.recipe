@@ -25,6 +25,7 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>production</string>
 			</array>
 			<key>description</key>
 			<string>The Zoom app provides cloud-hosted video conferencing, plus online meetings and group messaging.</string>
