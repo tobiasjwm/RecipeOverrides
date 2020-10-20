@@ -6,12 +6,10 @@
 	<string>local.munki.gmit-Daylite</string>
 	<key>Input</key>
 	<dict>
-		<key>DOWNLOAD_URL</key>
-		<string>https://www.marketcircle.com/daylite/download/6/daylitedma/</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Marketcircle</string>
+		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>Daylite6</string>
+		<string>Daylite</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>blocking_applications</key>
@@ -27,10 +25,10 @@
 			<string>Daylite keeps everything related to your business in one place, so you and your team can share information wherever they are by Mac, iPhone, and iPad. Your contacts, schedule, tasks, projects, sales opportunities, emails, and notes are all there, making it easy to find what you are looking for in seconds.</string>
 			<key>display_name</key>
 			<string>Daylite</string>
+			<key>minimum_os_version</key>
+			<string>10.13.6</string>
 			<key>name</key>
 			<string>%NAME%</string>
-			<key>minimum_os_version</key>
-			<string>10.10.0</string>
 			<key>unattended_install</key>
 			<true/>
 		</dict>
@@ -46,20 +44,29 @@
 			<key>com.github.bradclare.download.daylite</key>
 			<dict>
 				<key>git_hash</key>
-				<string>10c540aeabe946708902e239c7591c271d979c1d</string>
+				<string>c21af323125578fc1ddb3b1d4e4f8119f1d4c817</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/Daylite/Daylite.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>3da4af88cb7fa3741a00b0b4ce6f750c89f0fbcf5639afa3ac8cf248d1170e61</string>
+				<string>df95bdc2424a99b84b56cf8a9baef6358a8be970b061dc2d83650f7ca46d260f</string>
 			</dict>
 			<key>com.github.bradclare.munki.daylite</key>
 			<dict>
 				<key>git_hash</key>
-				<string>10c540aeabe946708902e239c7591c271d979c1d</string>
+				<string>c21af323125578fc1ddb3b1d4e4f8119f1d4c817</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/Daylite/Daylite.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>08569a63b2c6c8eabe91349173f8495910c4366467863588ee7786dbe78cd7fa</string>
+				<string>758241fdbaae8ff5af3bc8009f85109c36a00ffefece33af17362830df14c401</string>
+			</dict>
+			<key>com.github.bradclare.pkg.daylite</key>
+			<dict>
+				<key>git_hash</key>
+				<string>c21af323125578fc1ddb3b1d4e4f8119f1d4c817</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/Daylite/Daylite.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>1b14efb9483d6301327cf4d70e7361fb9df87a4cf4cbdc2a505dcb7fc5b26c4d</string>
 			</dict>
 		</dict>
 	</dict>
