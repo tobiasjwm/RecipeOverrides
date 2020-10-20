@@ -54,11 +54,11 @@
 			<key>com.github.bradclare.munki.ringcentral</key>
 			<dict>
 				<key>git_hash</key>
-				<string>e33c38f8f15677677cc2a653b9ac7cea1ff94bd1</string>
+				<string>39da4ac0640994f2de8a9a51f66d996413e44542</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/RingCentral/RingCentral.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>99495152fd670e099fb21305d085129e1b4cce2dd57abbcbae0e82cd27783492</string>
+				<string>f425bca816e78d2836ba19150a06b2e707848dfa572db4cfb38e0ec4ca644d80</string>
 			</dict>
 		</dict>
 	</dict>
