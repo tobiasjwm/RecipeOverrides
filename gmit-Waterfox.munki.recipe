@@ -54,29 +54,29 @@
 			<key>com.github.jpiel.download.Waterfox</key>
 			<dict>
 				<key>git_hash</key>
-				<string>970de0f855964061d9e13a16e9e87e25ff009e22</string>
+				<string>e44c1b13c71abfdd020d07a182ff3912a85cfc9f</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jpiel-recipes/Waterfox/Waterfox.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>777f654f86ce4fd20afabc74c8b229f82e637980a67773a6c6159e9b3ca96a34</string>
+				<string>328190fa510a2b4ade00b7138301e3fd0f0e8f0b0e4294b86642a3a60750cb9b</string>
 			</dict>
 			<key>com.github.jpiel.munki.Waterfox</key>
 			<dict>
 				<key>git_hash</key>
-				<string>527ee434faafd9a4cb25b9c200963606b1780905</string>
+				<string>e44c1b13c71abfdd020d07a182ff3912a85cfc9f</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jpiel-recipes/Waterfox/Waterfox.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>1286503b88eb8c28ab1bb0a7874b0de3704e00a7e3580cb3ff3884c3f6697f9a</string>
+				<string>4c58cf221c2eff2c06851505cc677e0fcec6e4cfe1e296674ab378da0b0b8968</string>
 			</dict>
 			<key>com.github.jpiel.pkg.Waterfox</key>
 			<dict>
 				<key>git_hash</key>
-				<string>4c934ec7bf6c700e194332093a3bf08ceb26ee9d</string>
+				<string>e44c1b13c71abfdd020d07a182ff3912a85cfc9f</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jpiel-recipes/Waterfox/Waterfox.pkg.recipe</string>
 				<key>sha256_hash</key>
-				<string>95b40e9ba82bf977ee09701403a4cc401adae1758c9e9e0ddab12ebf6336928e</string>
+				<string>e11452c2c2b53a1c08090dbb7b5de1ff40c2c13d9c276178e563b310aeef487e</string>
 			</dict>
 		</dict>
 	</dict>
