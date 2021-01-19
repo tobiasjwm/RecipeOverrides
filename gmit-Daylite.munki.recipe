@@ -62,11 +62,11 @@
 			<key>com.github.bradclare.pkg.daylite</key>
 			<dict>
 				<key>git_hash</key>
-				<string>c21af323125578fc1ddb3b1d4e4f8119f1d4c817</string>
+				<string>37b07db9454a9b887b345db442e0d04f58dc157e</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/Daylite/Daylite.pkg.recipe</string>
 				<key>sha256_hash</key>
-				<string>1b14efb9483d6301327cf4d70e7361fb9df87a4cf4cbdc2a505dcb7fc5b26c4d</string>
+				<string>34d5b49d850c93573bde8b39384a86c48c65831c80ff669426d76d567f33a6f5</string>
 			</dict>
 		</dict>
 	</dict>

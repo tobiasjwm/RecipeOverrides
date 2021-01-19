@@ -24,11 +24,11 @@
 			<key>com.github.homebysix.download.GitHubDesktop</key>
 			<dict>
 				<key>git_hash</key>
-				<string>ce0f2c7545cf82e7911cc154c5815fba794f8faf</string>
+				<string>9b0234d95b80ae32897d954ef507d569599a6918</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/GitHub/GitHubDesktop.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>58533c854036c09890c73f5dfca7a4395ae7bd7231d997f5ed8525c229d44e4f</string>
+				<string>ee5f04105a6c07e31f5c05c32c763b308a3d3076d2a092451e2071a585015926</string>
 			</dict>
 			<key>com.github.homebysix.install.GitHubDesktop</key>
 			<dict>

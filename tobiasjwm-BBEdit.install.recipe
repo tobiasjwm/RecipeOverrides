@@ -48,11 +48,11 @@
 			<key>com.github.rtrouton.pkg.bbedit</key>
 			<dict>
 				<key>git_hash</key>
-				<string>ed4a17ebaabff720e53ff818b2cc0928ed6ac5b5</string>
+				<string>0610e6a96ed84f86ccc1026c6f7959217936142a</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/Barebones/BBEdit.pkg.recipe</string>
 				<key>sha256_hash</key>
-				<string>a28f6114625bfd3a340f34262edda3c1e9b5a398400b53d829d0a33867315244</string>
+				<string>929e12dcb8b50e11403b3383af873140411bd1c123a806eb9a910a6085f70cdb</string>
 			</dict>
 		</dict>
 	</dict>

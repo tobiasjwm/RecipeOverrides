@@ -56,11 +56,11 @@ exit 0
 			<key>com.github.homebysix.download.ResilioSync</key>
 			<dict>
 				<key>git_hash</key>
-				<string>97353b67bb28728a27138018ac2d150a23db0bfb</string>
+				<string>9b0234d95b80ae32897d954ef507d569599a6918</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Resilio/ResilioSync.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>b28707e34868703b5bf3f83679c88b7656004f43742bd9fcd7d2779952c4ae10</string>
+				<string>694db7527f6084c1bc684496555e5644f01ad6279cc1a182709c4009ee10ee9c</string>
 			</dict>
 			<key>com.github.homebysix.munki.ResilioSync</key>
 			<dict>
