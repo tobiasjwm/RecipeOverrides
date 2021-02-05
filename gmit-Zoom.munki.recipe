@@ -54,11 +54,11 @@
 			<key>com.github.hansen-m.download.zoomus</key>
 			<dict>
 				<key>git_hash</key>
-				<string>fdd45bb9d2d77d33634b21515c90683896477a8e</string>
+				<string>e0144f1004d97cd322224a7c4dca5e9930876c69</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Zoom/Zoom.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>c4067c14602807606de1deca05d1635875fef0b575a5163c4ea4cd2c7d88bfb1</string>
+				<string>e7da9dc87d05caef44c144b4aeb4ff5f9bb71e0036596201a37e864ac6d4bd12</string>
 			</dict>
 			<key>com.github.homebysix.munki.Zoom</key>
 			<dict>
