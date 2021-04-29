@@ -79,11 +79,11 @@
 			<key>com.github.n8felton.download.MicrosoftEdge</key>
 			<dict>
 				<key>git_hash</key>
-				<string>2f1f7181aa22b73085c15226c30a184f242e98a9</string>
+				<string>74373a2a6d9f53bda92927d47088c3e86db66f69</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/Microsoft/MicrosoftEdge.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>8b714d220e22901c4115000ae7d21c45489cef2da27e4f5fe1463705c8eb077a</string>
+				<string>94878e5abda0ac71c59745dfc88e5eca1dc3aee7e7f118d158238886752e593a</string>
 			</dict>
 			<key>com.github.n8felton.munki.MicrosoftEdge</key>
 			<dict>

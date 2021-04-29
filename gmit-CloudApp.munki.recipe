@@ -28,10 +28,10 @@
 			<string>CloudApp</string>
 			<key>display_name</key>
 			<string>CloudApp</string>
-			<key>name</key>
-			<string>%NAME%</string>
 			<key>minimum_os_version</key>
 			<string>10.13.0</string>
+			<key>name</key>
+			<string>%NAME%</string>
 			<key>unattended_install</key>
 			<true/>
 			<key>unattended_uninstall</key>
@@ -67,11 +67,11 @@
 			<key>com.github.dataJAR-recipes.pkg.CloudApp</key>
 			<dict>
 				<key>git_hash</key>
-				<string>a300b0a78dc01755dae70113a255f7f3c5f48e8d</string>
+				<string>4a9d6bac90c193d1439cf38e21cbae9c563521c3</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/CloudApp/CloudApp.pkg.recipe</string>
 				<key>sha256_hash</key>
-				<string>06363fd9d5d475280fcc675bac4a3b035c1fd18740127c4723c516becf8e8815</string>
+				<string>4b99131d7f967fb1c0e582af33aa1184889c5fd3b89ccf65fdff0242abcf43c9</string>
 			</dict>
 		</dict>
 	</dict>

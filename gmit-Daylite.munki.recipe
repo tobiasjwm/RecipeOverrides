@@ -44,29 +44,20 @@
 			<key>com.github.bradclare.download.daylite</key>
 			<dict>
 				<key>git_hash</key>
-				<string>c21af323125578fc1ddb3b1d4e4f8119f1d4c817</string>
+				<string>952d30a50cef101e2ec2c7f05b0424fd79bdc806</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/Daylite/Daylite.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>df95bdc2424a99b84b56cf8a9baef6358a8be970b061dc2d83650f7ca46d260f</string>
+				<string>f73214aa541739f08682638b5bc30f8afe3f24d6c7ec5b87b59cab98b52cb088</string>
 			</dict>
 			<key>com.github.bradclare.munki.daylite</key>
 			<dict>
 				<key>git_hash</key>
-				<string>c21af323125578fc1ddb3b1d4e4f8119f1d4c817</string>
+				<string>aa2ce0fabbdb0f30216c07138f2b3ebcdd48bd42</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/Daylite/Daylite.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>758241fdbaae8ff5af3bc8009f85109c36a00ffefece33af17362830df14c401</string>
-			</dict>
-			<key>com.github.bradclare.pkg.daylite</key>
-			<dict>
-				<key>git_hash</key>
-				<string>37b07db9454a9b887b345db442e0d04f58dc157e</string>
-				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.bradclare-recipes/Daylite/Daylite.pkg.recipe</string>
-				<key>sha256_hash</key>
-				<string>34d5b49d850c93573bde8b39384a86c48c65831c80ff669426d76d567f33a6f5</string>
+				<string>28f2fa4c0e1cf93e321960134176df88e2ba9b96dabecb78f0dcee87d95be4e2</string>
 			</dict>
 		</dict>
 	</dict>
