@@ -9,7 +9,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>CarbonCopyCloner5</string>
+		<string>CarbonCopyCloner6</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -19,7 +19,7 @@
 			<key>description</key>
 			<string>Disk and folder cloning utility for OS X.</string>
 			<key>display_name</key>
-			<string>Carbon Copy Cloner</string>
+			<string>Carbon Copy Cloner 6</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
