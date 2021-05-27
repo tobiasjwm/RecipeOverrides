@@ -49,20 +49,11 @@
 			<key>MicrosoftEdgeURLProvider</key>
 			<dict>
 				<key>git_hash</key>
-				<string>f59c87a449a3064e717d6d97a47a254e4f86ad5f</string>
+				<string>3d005323ad04dfbba84f04b2d7a376676f0c0f50</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/Microsoft/MicrosoftEdgeURLProvider.py</string>
 				<key>sha256_hash</key>
-				<string>9d49b17481f0c81d94228ffce883324516442ef7b1632f9e843e932e7d7a85f6</string>
-			</dict>
-			<key>com.github.keeleysam.recipes.GoogleTalkPlugin/MunkiPkginfoReceiptsEditor</key>
-			<dict>
-				<key>git_hash</key>
-				<string>d097018081313411cc6d8f77bd82f1da3a1b400b</string>
-				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes/GoogleTalkPlugin/MunkiPkginfoReceiptsEditor.py</string>
-				<key>sha256_hash</key>
-				<string>5d7c2976edc460f6bf5632a5b579405ac3f070782f30fde8c504ac42d01afd99</string>
+				<string>68c1bb166afe90e78bacd6038f667be672b5b0de517ad08c75a6f0b3f9c1630e</string>
 			</dict>
 			<key>com.github.n8felton.shared/RemoteFilenameFinder</key>
 			<dict>
@@ -88,11 +79,11 @@
 			<key>com.github.n8felton.munki.MicrosoftEdge</key>
 			<dict>
 				<key>git_hash</key>
-				<string>60a0277a7563b15220ee5d13fae60277aaba4724</string>
+				<string>3ffef20f6fefe82cae83528e6a3e55be39d1e0fa</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/Microsoft/MicrosoftEdge.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>0f583ea14a7606edc4de5424ffba2a91f3fa395941aaabb9703151385cceec54</string>
+				<string>8715084229c1ac2663609018f04a02191bf703b02e18a9e2c3f594108894abd2</string>
 			</dict>
 		</dict>
 	</dict>
