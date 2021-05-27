@@ -11,7 +11,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/PDFpen</string>
 		<key>NAME</key>
-		<string>PDFpenPro12</string>
+		<string>PDFpenPro13</string>
 		<key>SPARKLE_FEED_URL</key>
 		<string>https://updates.smilesoftware.com/com.smileonmymac.PDFpenPro.xml</string>
 		<key>pkginfo</key>
@@ -35,7 +35,7 @@ Add signatures, text, and images. Make changes and correct typos. OCR scanned do
 			<key>display_name</key>
 			<string>PDFpenPro 12</string>
 			<key>icon_name</key>
-			<string>PDFpenPro10.png</string>
+			<string>PDFpenPro13.png</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>preinstall_alert</key>
@@ -60,20 +60,20 @@ Add signatures, text, and images. Make changes and correct typos. OCR scanned do
 			<key>com.github.jessepeterson.PDFpenPro.download</key>
 			<dict>
 				<key>git_hash</key>
-				<string>cc490f0d441ad8da46b57ac0e1d6a20cd2fba8c2</string>
+				<string>ad42bcb647fd511b9c97512d5d21c9abd0b60b0b</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jessepeterson-recipes/SmileSoftware/PDFpenPro.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>aa08c284bc044f17faef24f4b6e90f2d66c5c2a31f08ea769ee42cb0aead6d60</string>
+				<string>46f496abb536b6cf6796c25917d4de347a4fc22f9f98fb2fc5b0dcea710c7437</string>
 			</dict>
 			<key>com.github.jessepeterson.PDFpenPro.munki</key>
 			<dict>
 				<key>git_hash</key>
-				<string>e786ff4b622b7f7582b51734375672b58828cd7f</string>
+				<string>e083552303c0af305f447cae7bf19cbf40a2985d</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jessepeterson-recipes/SmileSoftware/PDFpenPro.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>66764836aef753dc5d9d12090d3a1890bfc7c0cea8550ef6a93ea1f851ef9cda</string>
+				<string>dfd60371eb4963a7bc9e30a04f5665b3a8acd695440abfc8c9a38019162e52c5</string>
 			</dict>
 		</dict>
 	</dict>
